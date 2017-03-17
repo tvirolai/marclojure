@@ -3,6 +3,8 @@
 /checkouts
 pom.xml
 pom.xml.asc
+*.iml
+/.idea
 *.txt
 *.mrc
 *.jar
