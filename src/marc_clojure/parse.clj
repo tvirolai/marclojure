@@ -96,12 +96,12 @@
     (if-not (datafield? tag)
       {:type "controlfield"
        :tag (get-tag-aleph line)
-       :content (get-content-aleph line)}
+       :data (get-content-aleph line)}
       {:type "datafield"
        :i1 (get-i1-aleph line)
        :i2 (get-i2-aleph line)
        :tag (get-tag-aleph line)
-       :content (parse-subfields-aleph line)})))
+       :subfields (parse-subfields-aleph line)})))
 
 (defn serialize-record-aleph [data]
   (let [ldr (->> data (filter #(= "LDR" (get-tag-aleph %))) first get-content-aleph)
