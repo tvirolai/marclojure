@@ -43,7 +43,7 @@ An example:
 Serialized records are represented as Clojure maps. The format looks as follows:
 
 ```clojure
-{:bibid "4"
+{:bibid "2"
  :leader "01066cam a22003137i 4500"
  :fields [{:type "controlfield", :tag "001", :data "  2"}
           {:type "controlfield", :tag "005", :data "20120402125847.0"}
@@ -127,8 +127,10 @@ for processing record sequences. Some examples (here the core namespace is loade
 
 ```clojure
 (def batch (parse/load-data :marc "marcdata.mrc"))
+=> #'foo.bar/batch
 
 (def record (first batch))
+=> #'foo.bar/record
 
 (marc/to-string record))
 =>
@@ -162,7 +164,7 @@ for processing record sequences. Some examples (here the core namespace is loade
 (marc/print-ids-to-file batch "outputfile_ids.txt")
 => nil
 
-(marc/record-contains-phrase? record ["heavy metal" "hard rock"])
+(marc/record-contains-phrase? record ["lausanne" "hard rock"])
 => true
 
 (marc/contains-field? record "130")
@@ -178,6 +180,12 @@ for processing record sequences. Some examples (here the core namespace is loade
 * Writing serialized records to file
 * Remove `freelib-marc4j` Java library from dependencies, move to pure Clojure implementation
 * Add test coverage
+
+## Thanks
+
+`clojure-marc` uses [freelib-marc4j](https://github.com/ksclarke/freelib-marc4j) for reading MARC data. Thanks for that!
+
+Aleph Sequential parser is based on [https://github.com/phochste/clj-marc](clj-marc).
 
 ## License
 
