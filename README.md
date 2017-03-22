@@ -1,8 +1,9 @@
 # marc-clojure
 
-A library for processing MARC records in Clojure. A work in progress.
+A library for processing MARC records in Clojure.
 
-The library is currently capable of reading files in ISO 2709 (Marc Exchange format) into lazy sequences of records serialized into Clojure maps.
+[![Clojars Project](https://img.shields.io/clojars/v/marc-clojure.svg)](https://clojars.org/marc-clojure)
+
 
 ## TODO
 
