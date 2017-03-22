@@ -1,6 +1,8 @@
 /target
 /classes
 /checkouts
+/data/*.bib
+/data/*.marc
 pom.xml
 pom.xml.asc
 *.iml

@@ -1,0 +1,1000 @@
+000000001 FMT   L BK
+000000001 LDR   L ^^^^^cam^a22003137i^4500
+000000001 001   L 000000001
+000000001 005   L 20100126155248.0
+000000001 008   L 860616s1985^^^^fi^|||||||||||||||||swe||
+000000001 0410  L $$aswe
+000000001 080   L $$a29
+000000001 080   L $$a378.18
+000000001 1102  L $$aÅbo Akademi.
+000000001 24510 L $$aSocialguide :$$binformation om den sociala service en studerande i olika situationer har rätt till /$$c[Åbo akademi].
+000000001 260   L $$a[Åbo] :$$b[Åbo akademi],$$c1985.
+000000001 300   L $$a[3], 34 s.
+000000001 336   L $$ateksti$$btxt$$2rdacontent
+000000001 337   L $$akäytettävissä ilman laitetta$$bn$$2rdamedia
+000000001 338   L $$anide$$bnc$$2rdacarrier
+000000001 500   L $$aPärmtitel: Socialguide för studerande vid Åbo akademi.
+000000001 SID   L $$c2$$balma
+000000001 CAT   L $$aLOAD$$b$$c20090122$$lFIN01$$h1151
+000000001 CAT   L $$aERE$$b30$$c20090529$$lFIN01$$h1617
+000000001 CAT   L $$aERE$$b30$$c20090529$$lFIN01$$h1618
+000000001 CAT   L $$aKVP4001$$b30$$c20090929$$lFIN01$$h1241
+000000001 CAT   L $$aKVP1008$$b30$$c20100126$$lFIN01$$h1552
+000000001 CAT   L $$aBATCH$$b00$$c20100126$$lFIN01$$h1554
+000000001 CAT   L $$aCONV-ISBD$$b$$c20120401$$lFIN01$$h2007
+000000001 CAT   L $$aCONV-RDA$$b$$c20160319$$lFIN01$$h0811
+000000001 LOW   L $$aALMA
+000000002 FMT   L BK
+000000002 LDR   L 00000cam^a22004097i^4500
+000000002 001   L 000000002
+000000002 005   L 20160406135147.0
+000000002 008   L 850308s1980^^^^sz^|||||||||||||||||fre||
+000000002 0410  L $$afre
+000000002 080   L $$a696/697
+000000002 080   L $$a296.63
+000000002 080   L $$a929 Josephus
+000000002 1000  L $$aSzyszman, Simon.
+000000002 24513 L $$aLe karaïsme :$$bses doctrines et son histoire /$$cSimon Szyszman.
+000000002 260   L $$aLausanne :$$bL'Age d'Homme,$$c1980.
+000000002 300   L $$a247 s., 24 pl. :$$bill., kart.
+000000002 336   L $$ateksti$$btxt$$2rdacontent
+000000002 337   L $$akäytettävissä ilman laitetta$$bn$$2rdamedia
+000000002 338   L $$anide$$bnc$$2rdacarrier
+000000002 4901  L $$aBibliotheca karaitica. Series A ;$$vvol. 1
+000000002 650 7 L $$atalotekniikka$$2ysa
+000000002 650 7 L $$arakennukset$$2ysa
+000000002 650 7 L $$atoimivuus$$2ysa
+000000002 650 7 L $$amittaus$$2ysa
+000000002 650 7 L $$asimulointi$$2ysa
+000000002 650 7 L $$aKaraites$$2atla
+000000002 650 7 L $$aKaraites$$xhistory$$2atla
+000000002 650 7 L $$aJewish sects$$2atla
+000000002 830 0 L $$aBibliotheca karaitica.$$nSeries A ;$$vvol. 1.
+000000002 SID   L $$c3$$balma
+000000002 CAT   L $$aLOAD$$b$$c20090122$$lFIN01$$h1151
+000000002 CAT   L $$aKVP1003$$b30$$c20090820$$lFIN01$$h1040
+000000002 CAT   L $$aLOAD-KAUSI$$b$$c20100121$$lFIN01$$h1054
+000000002 CAT   L $$aKVP-LOADF$$b$$c20100204$$lFIN01$$h1757
+000000002 CAT   L $$aCONV-ISBD$$b$$c20120401$$lFIN01$$h2007
+000000002 CAT   L $$aLOAD-RDA$$b$$c20160406$$lFIN01$$h1351
+000000002 LOW   L $$aALMA
+000000004 FMT   L BK
+000000004 LDR   L ^^^^^cam^a22003617i^4500
+000000004 001   L 000000004
+000000004 005   L 20090820094953.0
+000000004 008   L 850308s1983^^^^be^|||||||||||||||||arm||
+000000004 0411  L $$aarm$$afre$$harm
+000000004 080   L $$a281.914$$x(093)
+000000004 080   L $$a223.1
+000000004 1000  L $$aHesychios av Jerusalem.
+000000004 24510 L $$aHomélies sur Job :$$bversion arménienne.$$n1,$$pHomélies I-XI /$$cHésychius de Jérusalem ; éd., introd. et notes par Charles Renoux ; trad. par Charles Mercier et Charles Renoux.
+000000004 260   L $$aTurnhout :$$bBrepols,$$c1983.
+000000004 300   L $$a297 s.
+000000004 336   L $$ateksti$$btxt$$2rdacontent
+000000004 337   L $$akäytettävissä ilman laitetta$$bn$$2rdamedia
+000000004 338   L $$anide$$bnc$$2rdacarrier
+000000004 4901  L $$aPatrologia orientalis ;$$vt. 42, fasc. 1, no. 190
+000000004 650 7 L $$amanuscripts, Armenian$$2atla
+000000004 650 7 L $$aOrthodox Eastern Church$$2atla
+000000004 650 7 L $$aBible (OT)- Job$$2atla
+000000004 650 7 L $$aBible$$xcriticism, interpretation$$2atla
+000000004 655 7 L $$akalenterit$$2ysa
+000000004 7001  L $$aRenoux, Charles.
+000000004 7001  L $$aMercier, B.-Ch.
+000000004 830 0 L $$aPatrologia orientalis ;$$vt. 42, fasc. 1, no. 190.
+000000004 SID   L $$c5$$balma
+000000004 CAT   L $$aLOAD$$b$$c20090122$$lFIN01$$h1151
+000000004 CAT   L $$aKVP1003$$b30$$c20090820$$lFIN01$$h0949
+000000004 CAT   L $$aCONV-ISBD$$b$$c20120401$$lFIN01$$h2007
+000000004 CAT   L $$aCONV-RDA$$b$$c20160319$$lFIN01$$h0811
+000000004 LOW   L $$aALMA
+000000005 FMT   L BK
+000000005 LDR   L ^^^^^cam^a22003257i^4500
+000000005 001   L 000000005
+000000005 005   L 20160311121609.0
+000000005 008   L 850308s1983^^^^be^|||||||||||||||||syr||
+000000005 0411  L $$asyr$$afre$$hsyr
+000000005 080   L $$a273.913$$x(093)
+000000005 1000  L $$aBar Hebraeus.
+000000005 24513 L $$aLe candélabre du sanctuaire de Grégoire Abou'lfaradj dit Barhebraeus.$$nBase 11 ,$$pDu jugement dernier /$$ctexte syriaque éd. pour la prèmiere fois avec trad. française par Nicolas Séd.
+000000005 260   L $$aTurnhout :$$bBrepols,$$c1983.
+000000005 300   L $$aS. 262-384.
+000000005 336   L $$ateksti$$btxt$$2rdacontent
+000000005 337   L $$akäytettävissä ilman laitetta$$bn$$2rdamedia
+000000005 338   L $$anide$$bnc$$2rdacarrier
+000000005 4901  L $$aPatrologia orientalis ;$$vt. 41, fasc. 3, no. 188
+000000005 650 7 L $$amanuscripts, Syriac$$2atla
+000000005 650 7 L $$aJacobites (Syrian)$$2atla
+000000005 650 7 L $$aMonophysites$$2atla
+000000005 7001  L $$aSéd, Nicolas.
+000000005 830 0 L $$aPatrologia orientalis ;$$vt. 41, fasc. 3, no. 188.
+000000005 SID   L $$c6$$balma
+000000005 CAT   L $$aMINTTU$$b00$$c20120330$$lFIN01$$h1250
+000000005 CAT   L $$aCONV-ISBD$$b$$c20120401$$lFIN01$$h2007
+000000005 CAT   L $$aLOAD-HAMK$$b$$c20120706$$lFIN01$$h1145
+000000005 CAT   L $$aX4004$$b30$$c20160311$$lFIN01$$h1216
+000000005 CAT   L $$aCONV-RDA$$b$$c20160319$$lFIN01$$h0811
+000000005 LOW   L $$aALMA
+000000006 FMT   L BK
+000000006 LDR   L ^^^^^cam^a22004217i^4500
+000000006 001   L 000000006
+000000006 005   L 20140422230249.0
+000000006 008   L 850308s1983^^^^be^|||||||||||||||||ger||
+000000006 0410  L $$ager
+000000006 080   L $$a281$$x(091)$$x(5/6)
+000000006 080   L $$a281$$x(091)
+000000006 1000  L $$aKawerau, Peter.
+000000006 24510 L $$aOstkirchengeschichte.$$n1,$$pDas Christentum in Asien und Afrika bis zum Auftreten der Portugiesen im Indischer Ozean /$$cvon Peter Kawerau.
+000000006 260   L $$aLovanii [Louvain] :$$bPeeters,$$c1983.
+000000006 300   L $$aLXXI, 204 s.
+000000006 336   L $$ateksti$$btxt$$2rdacontent
+000000006 337   L $$akäytettävissä ilman laitetta$$bn$$2rdamedia
+000000006 338   L $$anide$$bnc$$2rdacarrier
+000000006 4901  L $$aCorpus scriptorum Christianorum orientalium ;$$vvol. 451
+000000006 4901  L $$aSubsidia ;$$vt. 70
+000000006 4901  L $$aCorpus scriptorum Christianorum orientalium, Subsidia ;$$vt. 70
+000000006 650 7 L $$aOrthodox Eastern Church in Africa$$xhistory$$2atla
+000000006 650 7 L $$aOrthodox Eastern Church in Asia$$xhistory$$2atla
+000000006 650 7 L $$aNestorians$$2atla
+000000006 650 7 L $$aMonophysites$$2atla
+000000006 650 7 L $$acanon law, Orthodox Eastern$$2atla
+000000006 650 7 L $$aPortuguese$$xIndia$$2atla
+000000006 7404  L $$aDas Christentum in Asien und Afrika bis zum Auftreten der Portugiesen im Indischer Ozean.
+000000006 830 0 L $$aCorpus scriptorum Christianorum orientalium ;$$vvol. 451.
+000000006 830 0 L $$aSubsidia ;$$vt. 70.
+000000006 830 0 L $$aCorpus scriptorum Christianorum orientalium,$$pSubsidia ;$$vt. 70.
+000000006 SID   L $$c7$$balma
+000000006 SID   L $$c5841$$bhelka
+000000006 CAT   L $$aCONV-ISBD$$b$$c20120401$$lFIN01$$h2007
+000000006 CAT   L $$aLOAD-HELKA$$b$$c20140422$$lFIN01$$h2302
+000000006 CAT   L $$aCONV-RDA$$b$$c20160319$$lFIN01$$h0811
+000000006 LOW   L $$aALMA
+000000006 LOW   L $$aHELKA
+000000007 FMT   L BK
+000000007 LDR   L ^^^^^cam^a22003257i^4500
+000000007 001   L 000000007
+000000007 005   L 20010520181033.0
+000000007 008   L 850308s1983^^^^be^|||||||||||||||||arm||
+000000007 0411  L $$aarm$$afre$$harm
+000000007 080   L $$a281.914$$x(093)
+000000007 080   L $$a223.1
+000000007 1000  L $$aHesychios av Jerusalem.
+000000007 24510 L $$aHomélies sur Job :$$bversion arménienne.$$n2,$$pHomélies XII-XXIV /$$cHésychius de Jérusalem ; éd., introd. et notes par Charles Renoux ; trad. par Charles Mercier et Charles Renoux.
+000000007 260   L $$aTurnhout :$$bBrepols,$$c1983.
+000000007 300   L $$aS. [298]-612.
+000000007 336   L $$ateksti$$btxt$$2rdacontent
+000000007 337   L $$akäytettävissä ilman laitetta$$bn$$2rdamedia
+000000007 338   L $$anide$$bnc$$2rdacarrier
+000000007 4901  L $$aPatrologia orientalis ;$$vt. 42, fasc. 2, no. 191
+000000007 650 7 L $$amanuscripts, Armenian$$2atla
+000000007 650 7 L $$aOrthodox Eastern Church$$2atla
+000000007 650 7 L $$aBible (OT)- Job$$2atla
+000000007 650 7 L $$aBible$$xcriticism, interpretation$$2atla
+000000007 7001  L $$aRenoux, Charles.
+000000007 7001  L $$aMercier, B.-Ch.
+000000007 830 0 L $$aPatrologia orientalis ;$$vt. 42, fasc. 2, no. 191.
+000000007 SID   L $$c8$$balma
+000000007 CAT   L $$aCONV-ISBD$$b$$c20120401$$lFIN01$$h2007
+000000007 CAT   L $$aCONV-RDA$$b$$c20160319$$lFIN01$$h0811
+000000007 LOW   L $$aALMA
+000000008 FMT   L BK
+000000008 LDR   L ^^^^^cam^a22002777i^4500
+000000008 001   L 000000008
+000000008 005   L 20010520181033.0
+000000008 008   L 850916s1984^^^^be^|||||||||||||||||syr||
+000000008 0410  L $$asyr$$afre$$hsyr
+000000008 080   L $$a273.913
+000000008 24500 L $$aHomélies anonymes du VIe siècle :$$bdissertation sur le Grand-Prêtre : homélies sur la pécheresse I, II, III /$$céd. du texte syriaque inéd., introd. et trad. française par Francois Graffin.
+000000008 260   L $$aTurnhout :$$bBrepols,$$c1984.
+000000008 300   L $$aS. [389]-533.
+000000008 336   L $$ateksti$$btxt$$2rdacontent
+000000008 337   L $$akäytettävissä ilman laitetta$$bn$$2rdamedia
+000000008 338   L $$anide$$bnc$$2rdacarrier
+000000008 4901  L $$aPatrologia orientalis ;$$vt. 41, fasc. 4, no. 189
+000000008 650 7 L $$amanuscripts, Syriac$$2atla
+000000008 650 7 L $$aOrthodox Eastern Church, Syrian$$2atla
+000000008 650 7 L $$asermons$$2atla
+000000008 7001  L $$aGraffin, Francois.
+000000008 830 0 L $$aPatrologia orientalis ;$$vt. 41, fasc. 4, no. 189.
+000000008 SID   L $$c9$$balma
+000000008 CAT   L $$aCONV-ISBD$$b$$c20120401$$lFIN01$$h2007
+000000008 CAT   L $$aCONV-RDA$$b$$c20160319$$lFIN01$$h0811
+000000008 LOW   L $$aALMA
+000000009 FMT   L BK
+000000009 LDR   L ^^^^^cam^a22002657i^4500
+000000009 001   L 000000009
+000000009 005   L 20010520181033.0
+000000009 008   L 850506s1982^^^^no^|||||||||||||||||nor||
+000000009 0410  L $$anor
+000000009 080   L $$a839.59
+000000009 080   L $$a293.11
+000000009 1000  L $$aNordli, Ottar.
+000000009 24510 L $$aOm Edda-dikt, skaldekvad og historietradisjon /$$cav Ottar Nordli.
+000000009 260   L $$aOslo :$$bUniversitetsbokhandelen [i kommisjon],$$c1982.
+000000009 300   L $$a35 s.
+000000009 336   L $$ateksti$$btxt$$2rdacontent
+000000009 337   L $$akäytettävissä ilman laitetta$$bn$$2rdamedia
+000000009 338   L $$anide$$bnc$$2rdacarrier
+000000009 650 7 L $$aIcelandic and old Norse literature$$2atla
+000000009 650 7 L $$aEddas$$2atla
+000000009 650 7 L $$aNorway$$xhistory$$2atla
+000000009 SID   L $$c10$$balma
+000000009 CAT   L $$aCONV-ISBD$$b$$c20120401$$lFIN01$$h2007
+000000009 CAT   L $$aCONV-RDA$$b$$c20160319$$lFIN01$$h0811
+000000009 LOW   L $$aALMA
+000000010 FMT   L BK
+000000010 LDR   L ^^^^^cam^a22002897i^4500
+000000010 001   L 000000010
+000000010 005   L 20010520181033.0
+000000010 008   L 850506s1981^^^^sz^|||||||||||||||||ger||
+000000010 0410  L $$ager
+000000010 080   L $$a37.037.1
+000000010 080   L $$a141.333
+000000010 080   L $$a291.315.6
+000000010 1000  L $$aZuccoli, Elena.
+000000010 24510 L $$aSkizzen und Entwürfe zur Eurythmie /$$cElena Zuccoli ; mit einem Geleitwort von Hagen Biesantz.
+000000010 260   L $$aDornach :$$bKeller,$$c1981.
+000000010 300   L $$a[72] s. :$$bbildverk.
+000000010 336   L $$ateksti$$btxt$$2rdacontent
+000000010 337   L $$akäytettävissä ilman laitetta$$bn$$2rdamedia
+000000010 338   L $$anide$$bnc$$2rdacarrier
+000000010 650 7 L $$aAnthroposophy$$2atla
+000000010 650 7 L $$adance, religious$$2atla
+000000010 650 7 L $$adance therapy$$2atla
+000000010 7001  L $$aBiesantz, Hagen.
+000000010 SID   L $$c11$$balma
+000000010 CAT   L $$aCONV-ISBD$$b$$c20120401$$lFIN01$$h2007
+000000010 CAT   L $$aCONV-RDA$$b$$c20160319$$lFIN01$$h0811
+000000010 LOW   L $$aALMA
+000000011 FMT   L BK
+000000011 LDR   L ^^^^^cam^a22002657i^4500
+000000011 001   L 000000011
+000000011 005   L 20010520181033.0
+000000011 008   L 850506s1981^^^^gw^|||||||||||||||||ger||
+000000011 0410  L $$ager
+000000011 080   L $$a615.851.8
+000000011 080   L $$a141.333
+000000011 1000  L $$aPütz, Rose Maria.
+000000011 24510 L $$aKunsttherapie :$$beine Alternative zur Regeneration des Menschen.$$nBd 1,$$pDie Maltherapie /$$cRose Maria Pütz.
+000000011 260   L $$aBielefeld :$$bBertelsmann,$$cCop. 1981.
+000000011 300   L $$a158 s., [38] pl. :$$bfärgill., ill.
+000000011 336   L $$ateksti$$btxt$$2rdacontent
+000000011 337   L $$akäytettävissä ilman laitetta$$bn$$2rdamedia
+000000011 338   L $$anide$$bnc$$2rdacarrier
+000000011 650 7 L $$aAnthroposophy$$2atla
+000000011 650 7 L $$aart therapy$$2atla
+000000011 7404  L $$aDie Maltherapie.
+000000011 SID   L $$c12$$balma
+000000011 CAT   L $$aCONV-ISBD$$b$$c20120401$$lFIN01$$h2007
+000000011 CAT   L $$aCONV-RDA$$b$$c20160319$$lFIN01$$h0811
+000000011 LOW   L $$aALMA
+000000012 FMT   L BK
+000000012 LDR   L ^^^^^cam^a22004817i^4500
+000000012 001   L 000000012
+000000012 005   L 20141219114925.0
+000000012 008   L 850506s1983^^^^xxu|||||||||||||||||eng||
+000000012 035   L $$z(FI-MELINDA)003066904
+000000012 035   L $$a(FI-MELINDA)000000012
+000000012 0410  L $$aeng
+000000012 080   L $$a970$$x(=97)
+000000012 080   L $$a970
+000000012 080   L $$a930.85$$x(=97)
+000000012 080   L $$a397$$x(=97)
+000000012 080   L $$a39$$x(7)$$x(=97)
+000000012 24500 L $$aHandbook of North American Indians.$$nVol. 10,$$pSouthwest /$$cWilliam G. Sturtevant, general ed. ; Alfonso Ortiz, vol. ed.
+000000012 260   L $$aWashington :$$bSmithsonian Institution,$$c1983.
+000000012 300   L $$axvi, 868 s. :$$bill., kart.
+000000012 336   L $$ateksti$$btxt$$2rdacontent
+000000012 337   L $$akäytettävissä ilman laitetta$$bn$$2rdamedia
+000000012 338   L $$anide$$bnc$$2rdacarrier
+000000012 650 7 L $$aintiaanit$$zPohjois-Amerikka$$2ysa
+000000012 650 7 L $$ahakuteokset$$xintiaanit$$zPohjois-Amerikka$$2kula
+000000012 650 7 L $$aNavajo Indians$$2atla
+000000012 650 7 L $$aIndians of North America$$2atla
+000000012 650 7 L $$aApache indians$$2atla
+000000012 7001  L $$aSturtevant, William C.
+000000012 7001  L $$aOrtiz, Alfonso.
+000000012 SID   L $$c4709$$bhelka
+000000012 SID   L $$c248168$$bvolte
+000000012 SID   L $$c13869$$boula
+000000012 SID   L $$c13$$balma
+000000012 CAT   L $$aLOAD-HELKA$$b$$c20140812$$lFIN01$$h2333
+000000012 CAT   L $$aLOAD-HELKA$$b$$c20111215$$lFIN01$$h0529
+000000012 CAT   L $$aLOAD-FIX$$b30$$c20141219$$lFIN01$$h1145
+000000012 CAT   L $$aCONV-ISBD$$b$$c20120401$$lFIN01$$h2007
+000000012 CAT   L $$aKVP1008$$b30$$c20141219$$lFIN01$$h1149
+000000012 CAT   L $$aCONV-RDA$$b$$c20160319$$lFIN01$$h0811
+000000012 LOW   L $$aOULA
+000000012 LOW   L $$aVOLTE
+000000012 LOW   L $$aHELKA
+000000012 LOW   L $$aALMA
+000000013 FMT   L BK
+000000013 LDR   L ^^^^^cam^a22004097i^4500
+000000013 001   L 000000013
+000000013 005   L 20141219120618.0
+000000013 008   L 850506s1981^^^^sw^|||||||||||||||||swe||
+000000013 035   L $$a(FI-MELINDA)000000013
+000000013 0410  L $$aswe
+000000013 080   L $$a929 Katarina
+000000013 080   L $$a271.4 Katarina
+000000013 1000  L $$aAndersson, Aron.
+000000013 24510 L $$aS. Katarina av Vadstena :$$ben levnadsteckning /$$c[Aron Andersson].
+000000013 260   L $$a[Rom :$$bBirgittasystrarna i Rom],$$c[1981]
+000000013 300   L $$a55 s.
+000000013 336   L $$ateksti$$btxt$$2rdacontent
+000000013 337   L $$akäytettävissä ilman laitetta$$bn$$2rdamedia
+000000013 338   L $$anide$$bnc$$2rdacarrier
+000000013 500   L $$aCop. Birgittasystrarna i Rom
+000000013 500   L $$aB: Jarl Gallénin lahjoitus.
+000000013 60004 L $$aKatarina Ulfsdotter.
+000000013 650 7 L $$apyhimykset$$xkeskiaika$$zRuotsi$$2ysa
+000000013 650 7 L $$akirkkohistoria$$xkeskiaika$$zRuotsi$$2ysa
+000000013 650 7 L $$amonasticism and religious orders$$2atla
+000000013 650 7 L $$aBridgettines$$xbiographies$$2atla
+000000013 650 7 L $$amonasteries in Sweden$$2atla
+000000013 650 7 L $$aSweden$$xchurch history$$x0600-1500$$2atla
+000000013 SID   L $$c14$$balma
+000000013 SID   L $$c887700$$bhelka
+000000013 CAT   L $$aCONV-ISBD$$b$$c20120401$$lFIN01$$h2007
+000000013 CAT   L $$aLOAD-HELKA$$b$$c20140620$$lFIN01$$h0042
+000000013 CAT   L $$aLOAD-FIX$$b30$$c20141219$$lFIN01$$h1206
+000000013 CAT   L $$aLOAD-FIX$$b30$$c20141219$$lFIN01$$h1206
+000000013 CAT   L $$aCONV-RDA$$b$$c20160319$$lFIN01$$h0811
+000000013 LOW   L $$aALMA
+000000013 LOW   L $$aHELKA
+000000014 FMT   L BK
+000000014 LDR   L ^^^^^cam^a22004457i^4500
+000000014 001   L 000000014
+000000014 005   L 20160310154414.0
+000000014 008   L 850506s1982^^^^sw^|||||||||||||||||swe||
+000000014 035   L $$a(FI-MELINDA)000000014
+000000014 0410  L $$aswe
+000000014 080   L $$a903.27$$x(6)
+000000014 084   L $$a70.982$$2ykl
+000000014 1000  L $$aBurenhult, Göran.
+000000014 24510 L $$aIherir :$$bklippmålningar från stenåldern i Centralsahara /$$ctext o.bild: Göran Burenhult.
+000000014 260   L $$aStockholm :$$bStureförlaget,$$c1982.
+000000014 300   L $$a268 s. :$$bill., färgill.
+000000014 336   L $$ateksti$$btxt$$2rdacontent
+000000014 337   L $$akäytettävissä ilman laitetta$$bn$$2rdamedia
+000000014 338   L $$anide$$bnc$$2rdacarrier
+000000014 650 7 L $$arock paintings$$2atla
+000000014 650 7 L $$aart, African$$2atla
+000000014 650 7 L $$aNeolithic period$$2atla
+000000014 650 7 L $$aAfrica, North$$2atla
+000000014 650 7 L $$aman, prehistoric$$2atla
+000000014 650 7 L $$akalliotaide$$zSahara$$2ysa
+000000014 650 7 L $$ataidehistoria$$xkivikausi$$xPohjois-Afrikka$$2ysa
+000000014 SID   L $$c15$$balma
+000000014 SID   L $$c191077$$bjykdo
+000000014 SID   L $$c570197$$bvaari
+000000014 SID   L $$c(ANDL100008)3223142$$bpiki
+000000014 CAT   L $$aCONV-ISBD$$c20120401$$lFIN01$$h2007
+000000014 CAT   L $$aLOAD-PIKI$$c20150620$$lFIN01$$h2243
+000000014 CAT   L $$aPIKI7001$$b30$$c20160115$$lFIN01$$h1441
+000000014 CAT   L $$aPIKI7001$$b30$$c20160115$$lFIN01$$h1441
+000000014 CAT   L $$aABO4003$$b30$$c20160310$$lFIN01$$h1543
+000000014 CAT   L $$aABO4003$$b30$$c20160310$$lFIN01$$h1544
+000000014 CAT   L $$aCONV-RDA$$b$$c20160319$$lFIN01$$h0811
+000000014 LOW   L $$aALMA
+000000014 LOW   L $$aJYKDO
+000000014 LOW   L $$aVAARI
+000000015 FMT   L BK
+000000015 LDR   L ^^^^^cam^a22002657i^4500
+000000015 001   L 000000015
+000000015 005   L 20010520181033.0
+000000015 008   L 850506s1982^^^^dk^|||||||||||||||||dan||
+000000015 0411  L $$adan$$hfre
+000000015 080   L $$a273.233$$x(093)
+000000015 24500 L $$aProcessen mod Beatrice de Lagleize :$$binkvisitionsakter fra Languedoc /$$cKaren Glente [udg.].
+000000015 260   L $$aKøbenhavn :$$bInstitut for religionssociologi. Københavns universitet,$$c[1982]
+000000015 300   L $$a99 s. :$$bkart.
+000000015 336   L $$ateksti$$btxt$$2rdacontent
+000000015 337   L $$akäytettävissä ilman laitetta$$bn$$2rdamedia
+000000015 338   L $$anide$$bnc$$2rdacarrier
+000000015 60004 L $$aBeatrice de Lagleize.
+000000015 650 7 L $$ainquisition$$2atla
+000000015 650 7 L $$achurch history$$x0600-1500$$2atla
+000000015 650 7 L $$aCathari$$2atla
+000000015 7001  L $$aGlente, Karen.
+000000015 SID   L $$c16$$balma
+000000015 CAT   L $$aCONV-ISBD$$b$$c20120401$$lFIN01$$h2007
+000000015 CAT   L $$aCONV-RDA$$b$$c20160319$$lFIN01$$h0811
+000000015 LOW   L $$aALMA
+000000017 FMT   L BK
+000000017 LDR   L ^^^^^cam^a22003257i^4500
+000000017 001   L 000000017
+000000017 005   L 20140625133435.0
+000000017 008   L 851105s1981^^^^sw^||||||m^^^|||||||swe||
+000000017 0410  L $$aswe
+000000017 080   L $$a297$$x(581)
+000000017 1001  L $$aSamuelsson, Jan.
+000000017 24510 L $$aIslam i Afganistan - under kung Muhammed Zahir shah :$$ben studie av moderniseringsprocessens följder för islams ställning i Afganistan /$$cJan Samuelsson.
+000000017 250   L $$a2., något omarb. uppl.
+000000017 260   L $$aStockholm :$$bSv. Afghanistankommittén,$$c1981.
+000000017 300   L $$a89 s. :$$bill., kart.
+000000017 336   L $$ateksti$$btxt$$2rdacontent
+000000017 337   L $$akäytettävissä ilman laitetta$$bn$$2rdamedia
+000000017 338   L $$anide$$bnc$$2rdacarrier
+000000017 4901  L $$aStockholm dissertations in comparative religion ;$$v1
+000000017 500   L $$a1. uppl. utg. som diss., Stockholms universitet, 1975
+000000017 650 7 L $$aIslam$$xAfghanistan$$xsocial history$$2atla
+000000017 650 7 L $$amodernism$$xIslam$$2atla
+000000017 650 7 L $$areligious change$$2atla
+000000017 830 0 L $$aStockholm dissertations in comparative religion ;$$v1.
+000000017 SID   L $$c18$$balma
+000000017 CAT   L $$aCONV-ISBD$$b$$c20120401$$lFIN01$$h2007
+000000017 CAT   L $$aX4007$$b30$$c20140625$$lFIN01$$h1334
+000000017 CAT   L $$aCONV-RDA$$b$$c20160319$$lFIN01$$h0811
+000000017 LOW   L $$aALMA
+000000017 LOW   L $$aVAARI
+000000020 FMT   L BK
+000000020 LDR   L ^^^^^cam^a22003017i^4500
+000000020 001   L 000000020
+000000020 005   L 20100329142858.0
+000000020 008   L 850916s1983^^^^gw^|||||||||||||||||ger||
+000000020 0410  L $$ager
+000000020 080   L $$a641
+000000020 080   L $$a54
+000000020 24500 L $$aChemie in Lebensmitteln /$$chrsg. von der KATALYSE-Umweltgruppe Köln e.V.
+000000020 250   L $$a20. Aufl., 191.-200. Tausend.
+000000020 260   L $$aFrankfurt ama Main :$$bZweitausendeins,$$c1983.
+000000020 300   L $$a351 s. :$$bill.
+000000020 336   L $$ateksti$$btxt$$2rdacontent
+000000020 337   L $$akäytettävissä ilman laitetta$$bn$$2rdamedia
+000000020 338   L $$anide$$bnc$$2rdacarrier
+000000020 500   L $$a1. Aufl. 1982.
+000000020 500   L $$a26. Aufl., 251.-255. Tausend 1983.
+000000020 650 7 L $$achemistry$$2atla
+000000020 650 7 L $$afood$$2atla
+000000020 7102  L $$aKatalyse-Umweltgruppe Köln.
+000000020 SID   L $$c21$$balma
+000000020 CAT   L $$aX4005$$b30$$c20100329$$lFIN01$$h1428
+000000020 CAT   L $$aCONV-ISBD$$b$$c20120401$$lFIN01$$h2007
+000000020 CAT   L $$aCONV-RDA$$b$$c20160319$$lFIN01$$h0811
+000000020 LOW   L $$aVAARI
+000000021 FMT   L BK
+000000021 LDR   L ^^^^^cam^a22002657i^4500
+000000021 001   L 000000021
+000000021 005   L 20010520181033.0
+000000021 008   L 850916s1984^^^^xxu|||||||||||||||||eng||
+000000021 0410  L $$aeng
+000000021 080   L $$a294.55
+000000021 080   L $$a929 Bhaktivedanta
+000000021 1000  L $$aGoswami, Satsvarūpa dāsa.
+000000021 24510 L $$aŚrīla Prabhupāda-līlāmrta :$$ba biography of His Divine Grace A. C. Bhaktivedanta Swami Prabhupāda.$$nVol. 6,$$pUniting two worlds : around the world/return to Vrndāvana 1975-1977 /$$cSatsvarūpa dāsa Goswami.
+000000021 260   L $$aLos Angeles :$$bBhaktivedanta Book Trust,$$c1984.
+000000021 300   L $$axvii, 477 s., [16] pl. :$$bill.
+000000021 336   L $$ateksti$$btxt$$2rdacontent
+000000021 337   L $$akäytettävissä ilman laitetta$$bn$$2rdamedia
+000000021 338   L $$anide$$bnc$$2rdacarrier
+000000021 60004 L $$aBhaktivedanta, A. C.
+000000021 650 7 L $$aKrishna Consciousness Movement$$xbiography$$2atla
+000000021 650 7 L $$areligious movements, popular$$2atla
+000000021 SID   L $$c22$$balma
+000000021 CAT   L $$aCONV-ISBD$$b$$c20120401$$lFIN01$$h2007
+000000021 CAT   L $$aCONV-RDA$$b$$c20160319$$lFIN01$$h0811
+000000021 LOW   L $$aALMA
+000000022 FMT   L BK
+000000022 LDR   L ^^^^^cam^a22003977i^4500
+000000022 001   L 000000022
+000000022 005   L 20010520181033.0
+000000022 008   L 850916s1982^^^^sw^|||||||||||1|||||swe||
+000000022 0410  L $$au
+000000022 080   L $$a061.3
+000000022 080   L $$a276
+000000022 1112  L $$aNordiska patristikermötet$$n(1 :$$d1981 :$$cLund).
+000000022 24510 L $$aPatristica Nordica 1 :$$bföreläsningar hållna vid Nordiska patristikermötet i Lund 25-28 augusti 1981.
+000000022 260   L $$aLund :$$bTeologiska institutionen,$$c1982.
+000000022 300   L $$a137 s.
+000000022 336   L $$ateksti$$btxt$$2rdacontent
+000000022 337   L $$akäytettävissä ilman laitetta$$bn$$2rdamedia
+000000022 338   L $$anide$$bnc$$2rdacarrier
+000000022 4901  L $$aReligio ;$$v5
+000000022 650 7 L $$aBible (OT)$$xcriticism, interpretation, Jewish$$2atla
+000000022 650 7 L $$aNicaea, Council of, 325$$2atla
+000000022 650 7 L $$aJesus Christ$$2atla
+000000022 650 7 L $$aIgnatius, saint, BP of Antioch$$2atla
+000000022 650 7 L $$aclergy$$xoffice$$2atla
+000000022 650 7 L $$acharisma$$2atla
+000000022 650 7 L $$aFathers of the church$$xcongresses$$2atla
+000000022 650 7 L $$aCyril, saint, patriarch of Alexandria, d. 444$$2atla
+000000022 650 7 L $$amessianism$$2atla
+000000022 650 7 L $$aBible (OT)$$xcriticism, interpretation$$2atla
+000000022 830 0 L $$aReligio ;$$v5.
+000000022 SID   L $$c23$$balma
+000000022 SID   L $$c1415856$$bhelka
+000000022 CAT   L $$aCONV-ISBD$$b$$c20120401$$lFIN01$$h2007
+000000022 CAT   L $$aCONV-RDA$$b$$c20160319$$lFIN01$$h0811
+000000022 LOW   L $$aALMA
+000000022 LOW   L $$aHELKA
+000000023 FMT   L BK
+000000023 LDR   L ^^^^^cam^a22003497i^4500
+000000023 001   L 000000023
+000000023 005   L 20010520181034.0
+000000023 008   L 850625s1984^^^^gw^|||||||||||||||||ger||
+000000023 0410  L $$ager
+000000023 080   L $$a291.17$$x(091)
+000000023 080   L $$a141.4$$x(091)
+000000023 080   L $$a211$$x(091)
+000000023 080   L $$a141.45$$x(091)
+000000023 080   L $$a1$$x(091)
+000000023 1000  L $$aLey, Hermann.
+000000023 24510 L $$aGeschichte der Aufklärung und des Atheismus.$$n4:2 /$$cHermann Ley.
+000000023 260   L $$aBerlin :$$bDeutscher Verlag der Wissenschaften,$$c1984.
+000000023 300   L $$a540 s.
+000000023 336   L $$ateksti$$btxt$$2rdacontent
+000000023 337   L $$akäytettävissä ilman laitetta$$bn$$2rdamedia
+000000023 338   L $$anide$$bnc$$2rdacarrier
+000000023 650 7 L $$aenlightenment$$2atla
+000000023 650 7 L $$aeighteenth century$$2atla
+000000023 650 7 L $$aphilosophy, French$$xhistory$$2atla
+000000023 650 7 L $$amaterialism$$2atla
+000000023 650 7 L $$aatheism$$2atla
+000000023 SID   L $$c24$$balma
+000000023 SID   L $$c1129355$$bhelka
+000000023 CAT   L $$aCONV-ISBD$$b$$c20120401$$lFIN01$$h2007
+000000023 CAT   L $$aCONV-RDA$$b$$c20160319$$lFIN01$$h0811
+000000023 LOW   L $$aALMA
+000000023 LOW   L $$aHELKA
+000000024 FMT   L BK
+000000024 LDR   L ^^^^^cam^a22003377i^4500
+000000024 001   L 000000024
+000000024 005   L 20141219123717.0
+000000024 008   L 850625s1983^^^^xxu|||||||||||||||||san||
+000000024 035   L $$a(FI-MELINDA)000000024
+000000024 0411  L $$asan$$aeng
+000000024 080   L $$a294.526.825$$x=03.912$$x=20
+000000024 080   L $$a294.55
+000000024 1000  L $$aBhaktivedanta, A. C.
+000000024 24510 L $$aBhagavad-gītā as it is /$$cwith the original Sanskrit text, Roman transliteration, English equivalents, transl. and elaborate purports by A. C. Bhaktivedanta Swami Prabhupāda.
+000000024 250   L $$aComplete ed., rev. and enl.
+000000024 260   L $$aLos Angeles :$$bBhaktivedanta Book Trust,$$c1983.
+000000024 300   L $$axx, 904 s., [24] pl. :$$bfärgpl.
+000000024 336   L $$ateksti$$btxt$$2rdacontent
+000000024 337   L $$akäytettävissä ilman laitetta$$bn$$2rdamedia
+000000024 338   L $$anide$$bnc$$2rdacarrier
+000000024 63004 L $$aBhagavadgita,$$lengelska.
+000000024 650 7 L $$aKrishna-liike$$xpyhät kirjat$$2ysa
+000000024 650 7 L $$aKrishnarörelsen$$xheliga böcker$$2allars
+000000024 650 7 L $$aHinduism$$xsacred books$$2atla
+000000024 650 7 L $$aKrishna Consciousness Movement$$2atla
+000000024 SID   L $$c25$$balma
+000000024 CAT   L $$aCONV-ISBD$$b$$c20120401$$lFIN01$$h2007
+000000024 CAT   L $$aLOAD-FIX$$b30$$c20141219$$lFIN01$$h1237
+000000024 CAT   L $$aLOAD-FIX$$b30$$c20141219$$lFIN01$$h1237
+000000024 CAT   L $$aCONV-RDA$$b$$c20160319$$lFIN01$$h0811
+000000024 LOW   L $$aALMA
+000000027 FMT   L BK
+000000027 LDR   L ^^^^^cam^a22003977i^4500
+000000027 001   L 000000027
+000000027 005   L 20141219123718.0
+000000027 008   L 850625s1984^^^^pl^|||||||||||||||||ger||
+000000027 035   L $$a(FI-MELINDA)000000027
+000000027 0410  L $$ager
+000000027 080   L $$a939.3$$x(093)
+000000027 080   L $$a930.271$$x=92
+000000027 080   L $$a003.323$$x(393)
+000000027 080   L $$a003.323
+000000027 1000  L $$aMatouš, Lubor.
+000000027 24510 L $$aKappadokische Keilschrifttafeln mit Siegeln :$$baus der Sammlungen der Karlsuniversität in Prag /$$cvon Lubor Matouš und Marie Matoušová-Rajmová.
+000000027 260   L $$aPrag :$$bKarlsuniversität,$$c1984.
+000000027 300   L $$a186 s. :$$bill.
+000000027 336   L $$ateksti$$btxt$$2rdacontent
+000000027 337   L $$akäytettävissä ilman laitetta$$bn$$2rdamedia
+000000027 338   L $$anide$$bnc$$2rdacarrier
+000000027 650 7 L $$aassyriologia$$xkielitiede$$2ysa
+000000027 650 7 L $$aclay tablets$$2atla
+000000027 650 7 L $$aAkkadian language$$2atla
+000000027 650 7 L $$aCappadocia$$2atla
+000000027 650 7 L $$acuneiform inscriptions$$2atla
+000000027 650 7 L $$atablets, cuneiform$$2atla
+000000027 7001  L $$aMatoušová-Rajmová, Marie.
+000000027 SID   L $$c28$$balma
+000000027 SID   L $$c6218$$bhelka
+000000027 CAT   L $$aCONV-ISBD$$b$$c20120401$$lFIN01$$h2007
+000000027 CAT   L $$aLOAD-FIX$$b30$$c20141219$$lFIN01$$h1237
+000000027 CAT   L $$aLOAD-FIX$$b30$$c20141219$$lFIN01$$h1237
+000000027 CAT   L $$aCONV-RDA$$b$$c20160319$$lFIN01$$h0811
+000000027 LOW   L $$aALMA
+000000027 LOW   L $$aHELKA
+000000028 FMT   L BK
+000000028 LDR   L ^^^^^cam^a22002777i^4500
+000000028 001   L 000000028
+000000028 005   L 20010520181034.0
+000000028 008   L 850625s1984^^^^ii^|||||||||||||||||eng||
+000000028 0410  L $$aeng
+000000028 080   L $$a294.554
+000000028 24500 L $$aWorld perspectives on Swami Dayananda Saraswati /$$c[ed. by] Ganga Ram Garg ; foreword by Kenneth W. Jones.
+000000028 260   L $$aNew Delhi :$$bConcept,$$c1984.
+000000028 300   L $$axlvi, 592 s. :$$bill.
+000000028 336   L $$ateksti$$btxt$$2rdacontent
+000000028 337   L $$akäytettävissä ilman laitetta$$bn$$2rdamedia
+000000028 338   L $$anide$$bnc$$2rdacarrier
+000000028 60004 L $$aDayananda Saraswati,$$cSwami.
+000000028 650 7 L $$aArya Samaj$$2atla
+000000028 650 7 L $$aArya Samaj$$xbiographies$$2atla
+000000028 650 7 L $$ahinduism$$2atla
+000000028 650 7 L $$aHindu learning and scholarship$$2atla
+000000028 7001  L $$aGarg, Ganga Ram.
+000000028 SID   L $$c29$$balma
+000000028 CAT   L $$aCONV-ISBD$$b$$c20120401$$lFIN01$$h2007
+000000028 CAT   L $$aCONV-RDA$$b$$c20160319$$lFIN01$$h0811
+000000028 LOW   L $$aALMA
+000000029 FMT   L BK
+000000029 LDR   L ^^^^^cam^a22003017i^4500
+000000029 001   L 000000029
+000000029 005   L 20010520181034.0
+000000029 008   L 850625s1984^^^^sw^|||||||||||||||||swe||
+000000029 0410  L $$aswe
+000000029 080   L $$a281/282$$x(485)
+000000029 1000  L $$aEjerfeldt, Lennart.
+000000029 24510 L $$aKatolska, ortodoxa och österländska kyrkor på församlingsnivå /$$cLennart Ejerfeldt.
+000000029 260   L $$aStockholm :$$bReligionssociologiska institutet,$$c1984.
+000000029 300   L $$a41, [16] s.
+000000029 336   L $$ateksti$$btxt$$2rdacontent
+000000029 337   L $$akäytettävissä ilman laitetta$$bn$$2rdamedia
+000000029 338   L $$anide$$bnc$$2rdacarrier
+000000029 4901  L $$aForskningsrapport / Religionssociologiska institutet ;$$vnr 180
+000000029 650 7 L $$aemigration and immigration$$2atla
+000000029 650 7 L $$aOriental Eastern Church in Europe$$2atla
+000000029 650 7 L $$aCatholic church$$xEurope$$2atla
+000000029 650 7 L $$aOriental Orthodox Churches (non-Chalcedonian)$$2atla
+000000029 650 7 L $$aSweden$$xreligion$$2atla
+000000029 8102  L $$aReligionssociologiska institutet.$$tForskningsrapport ;$$vnr 180.
+000000029 SID   L $$c30$$balma
+000000029 CAT   L $$aCONV-ISBD$$b$$c20120401$$lFIN01$$h2007
+000000029 CAT   L $$aCONV-RDA$$b$$c20160319$$lFIN01$$h0811
+000000029 LOW   L $$aALMA
+000000030 FMT   L BK
+000000030 LDR   L ^^^^^cam^a22002657i^4500
+000000030 001   L 000000030
+000000030 005   L 20010520181034.0
+000000030 008   L 850625s1984^^^^sw^|||||||||||||||||swe||
+000000030 0410  L $$aswe
+000000030 080   L $$a245$$x(485)
+000000030 1000  L $$aStraarup, Jørgen.
+000000030 24510 L $$aPsalmer och visor 76 och 1985 års Den svenska psalmboken /$$cav Jørgen Straarup.
+000000030 260   L $$aStockholm :$$bReligionssociologiska institutet,$$c1984.
+000000030 300   L $$avi, 72 s.
+000000030 336   L $$ateksti$$btxt$$2rdacontent
+000000030 337   L $$akäytettävissä ilman laitetta$$bn$$2rdamedia
+000000030 338   L $$anide$$bnc$$2rdacarrier
+000000030 4901  L $$aForskningsrapport / Religionssociologiska institutet ;$$vnr 181
+000000030 650 7 L $$aSvenska psalmboken$$2atla
+000000030 650 7 L $$aprayer books$$2atla
+000000030 8102  L $$aReligionssociologiska institutet.$$tForskningsrapport ;$$vnr 181.
+000000030 SID   L $$c31$$balma
+000000030 CAT   L $$aCONV-ISBD$$b$$c20120401$$lFIN01$$h2007
+000000030 CAT   L $$aCONV-RDA$$b$$c20160319$$lFIN01$$h0811
+000000030 LOW   L $$aALMA
+000000031 FMT   L BK
+000000031 LDR   L ^^^^^cam^a22002777i^4500
+000000031 001   L 000000031
+000000031 005   L 20010520181034.0
+000000031 008   L 850625s1984^^^^sw^|||||||||||||||||swe||
+000000031 0410  L $$aswe
+000000031 080   L $$a266$$x(485)
+000000031 080   L $$a654.19
+000000031 1000  L $$aDahlgren, Curt.
+000000031 24510 L $$a[Gud i etern :$$bsamfundsfolk och närradio i Malmö /$$cCurt Dahlgren].
+000000031 260   L $$aStockholm :$$bReligionssociologiska institutet,$$c1984.
+000000031 300   L $$a31 s. :$$btab.
+000000031 336   L $$ateksti$$btxt$$2rdacontent
+000000031 337   L $$akäytettävissä ilman laitetta$$bn$$2rdamedia
+000000031 338   L $$anide$$bnc$$2rdacarrier
+000000031 4901  L $$aForskningsrapport / Religionssociologiska institutet ;$$vnr 184
+000000031 650 7 L $$amass media in religion$$2atla
+000000031 650 7 L $$aSweden$$xreligion$$2atla
+000000031 8102  L $$aReligionssociologiska institutet.$$tForskningsrapport ;$$vnr 184.
+000000031 SID   L $$c32$$balma
+000000031 CAT   L $$aCONV-ISBD$$b$$c20120401$$lFIN01$$h2007
+000000031 CAT   L $$aCONV-RDA$$b$$c20160319$$lFIN01$$h0811
+000000031 LOW   L $$aALMA
+000000033 FMT   L BK
+000000033 LDR   L ^^^^^cam^a22002777i^4500
+000000033 001   L 000000033
+000000033 005   L 20010520181034.0
+000000033 008   L 850625s1984^^^^sw^||||||s^^^|||||||swe||
+000000033 0410  L $$aswe
+000000033 080   L $$a264$$x(485)
+000000033 080   L $$a316.62
+000000033 24500 L $$aHögmässomängd och högmässodeltagande :$$ben jämförelse på pastoratsnivå över två år.
+000000033 260   L $$aStockholm :$$bReligionssociologiska institutet,$$c1984.
+000000033 300   L $$a6 s. :$$btab.
+000000033 336   L $$ateksti$$btxt$$2rdacontent
+000000033 337   L $$akäytettävissä ilman laitetta$$bn$$2rdamedia
+000000033 338   L $$anide$$bnc$$2rdacarrier
+000000033 4901  L $$aSmärre meddelanden / Religionssociologiska institutet ;$$v1984:8
+000000033 650 7 L $$achurch attendance$$2atla
+000000033 650 7 L $$asociology and religion$$2atla
+000000033 650 7 L $$aSvenska kyrkan$$2atla
+000000033 8102  L $$aReligionssociologiska institutet.$$tSmärre meddelanden ;$$v1984:8.
+000000033 SID   L $$c34$$balma
+000000033 CAT   L $$aCONV-ISBD$$b$$c20120401$$lFIN01$$h2007
+000000033 CAT   L $$aCONV-RDA$$b$$c20160319$$lFIN01$$h0811
+000000033 LOW   L $$aALMA
+000000034 FMT   L BK
+000000034 LDR   L ^^^^^cam^a22002777i^4500
+000000034 001   L 000000034
+000000034 005   L 20010520181034.0
+000000034 008   L 850625s1984^^^^sw^||||||s^^^|||||||swe||
+000000034 0410  L $$aswe
+000000034 080   L $$a264$$x(485)
+000000034 080   L $$a316.62
+000000034 24500 L $$aSmå och stora församlingar i svenska kyrkans gudstjänstliv.
+000000034 260   L $$aStockholm :$$bReligionssociologiska institutet,$$c1984.
+000000034 300   L $$a12 s. :$$btab.
+000000034 336   L $$ateksti$$btxt$$2rdacontent
+000000034 337   L $$akäytettävissä ilman laitetta$$bn$$2rdamedia
+000000034 338   L $$anide$$bnc$$2rdacarrier
+000000034 4901  L $$aSmärre meddelanden / Religionssociologiska institutet ;$$v1984:7
+000000034 650 7 L $$achurch attendance$$2atla
+000000034 650 7 L $$asociology and religion$$2atla
+000000034 650 7 L $$aSvenska kyrkan$$2atla
+000000034 8102  L $$aReligionssociologiska institutet.$$tSmärre meddelanden ;$$v1984:7.
+000000034 SID   L $$c35$$balma
+000000034 CAT   L $$aCONV-ISBD$$b$$c20120401$$lFIN01$$h2007
+000000034 CAT   L $$aCONV-RDA$$b$$c20160319$$lFIN01$$h0811
+000000034 LOW   L $$aALMA
+000000035 FMT   L BK
+000000035 LDR   L ^^^^^cam^a22003614i^4500
+000000035 001   L 000000035
+000000035 005   L 20010520181034.0
+000000035 008   L 850625s1981^^^^sw^||||||m^^^|||||||swe||
+000000035 0410  L $$aswe
+000000035 080   L $$a726.59$$x(485)
+000000035 1001  L $$aLarsson, Ylva.
+000000035 24510 L $$aKyrkorummet :$$bstudier av nutida kyrkobyggnader och kyrkorum /$$cYlva Larsson och Helena Tallius.
+000000035 260   L $$aLund :$$bLunds universitet. Sociologiska institutionen,$$c1981.
+000000035 300   L $$a169 s. :$$bill.
+000000035 336   L $$ateksti$$btxt$$2rdacontent
+000000035 337   L $$akäytettävissä ilman laitetta$$bn$$2rdamedia
+000000035 338   L $$anide$$bnc$$2rdacarrier
+000000035 4901  L $$aArbetsrapport / Förortskyrkan. Ideologi, utformning, användning ;$$vnr 12
+000000035 509   L $$aExamensarbete: Tekniska högskolan, 1978.
+000000035 650 7 L $$achurch buildings$$2atla
+000000035 650 7 L $$achurch architecture$$2atla
+000000035 650 7 L $$achurch buildings$$xconstruction$$2atla
+000000035 650 7 L $$achurch buildings, Lutheran$$2atla
+000000035 650 7 L $$aSvenska kyrkan$$2atla
+000000035 7001  L $$aTallius, Helena.
+000000035 7102  L $$aLunds universitet.$$bSociologiska institutionen.
+000000035 8102  L $$aFörortskyrkan.$$tArbetsrapport.$$nIdeologi, utformning, användning ;$$vnr 12.
+000000035 SID   L $$c36$$balma
+000000035 SID   L $$c1411936$$bhelka
+000000035 CAT   L $$aCONV-ISBD$$b$$c20120401$$lFIN01$$h2007
+000000035 CAT   L $$aCONV-RDA$$b$$c20160319$$lFIN01$$h0811
+000000035 LOW   L $$aALMA
+000000035 LOW   L $$aHELKA
+000000036 FMT   L BK
+000000036 LDR   L ^^^^^cam^a22003497i^4500
+000000036 001   L 000000036
+000000036 005   L 20010520181034.0
+000000036 008   L 850625s1982^^^^sw^|||||||||||||||||swe||
+000000036 0410  L $$aswe
+000000036 080   L $$a264$$x(485)
+000000036 080   L $$a316.62
+000000036 1000  L $$aGeyer, Kalle.
+000000036 24510 L $$aGudstjänstbesök och nattvardsgång :$$btvå tematiska uppsatser /$$cKalle Geyer och Jan Carlsson.
+000000036 260   L $$aUppsala :$$bUppsala universitet. Teologiska institutionen,$$c1982.
+000000036 300   L $$a57 s. :$$btab., fig.
+000000036 336   L $$ateksti$$btxt$$2rdacontent
+000000036 337   L $$akäytettävissä ilman laitetta$$bn$$2rdamedia
+000000036 338   L $$anide$$bnc$$2rdacarrier
+000000036 4901  L $$aArbetsrapport / Förortskyrkan. Ideologi, utformning, användning ;$$vnr 16
+000000036 650 7 L $$aLord's Supper$$2atla
+000000036 650 7 L $$achurch attendance$$2atla
+000000036 650 7 L $$asociology and religion$$2atla
+000000036 650 7 L $$aSvenska kyrkan$$2atla
+000000036 650 7 L $$areligious surveys$$2atla
+000000036 7001  L $$aCarlsson, Jan.
+000000036 8102  L $$aFörortskyrkan.$$tArbetsrapport.$$nIdeologi, utformning, användning ;$$vnr 16.
+000000036 SID   L $$c37$$balma
+000000036 SID   L $$c1324112$$bhelka
+000000036 CAT   L $$aCONV-ISBD$$b$$c20120401$$lFIN01$$h2007
+000000036 CAT   L $$aCONV-RDA$$b$$c20160319$$lFIN01$$h0811
+000000036 LOW   L $$aALMA
+000000036 LOW   L $$aHELKA
+000000037 FMT   L BK
+000000037 LDR   L ^^^^^cam^a22002657i^4500
+000000037 001   L 000000037
+000000037 005   L 20010520181034.0
+000000037 008   L 850625s1983^^^^ve^||||||b^^^|||||||spa||
+000000037 0410  L $$aspa
+000000037 080   L $$a016
+000000037 080   L $$a316.7$$x(87)
+000000037 080   L $$a39$$x(87)
+000000037 1000  L $$aPollak-Eltz, Angelina.
+000000037 24510 L $$aBibliografia antropologica Venezolana 1983 /$$cAngelina Pollak-Eltz.
+000000037 260   L $$aCaracas :$$bInstituto de lenguas indigenas y Centro de estudios comparados de religion. Universidad Catolica Andres Bello,$$c[198-?]
+000000037 300   L $$a66 s.
+000000037 336   L $$ateksti$$btxt$$2rdacontent
+000000037 337   L $$akäytettävissä ilman laitetta$$bn$$2rdamedia
+000000037 338   L $$anide$$bnc$$2rdacarrier
+000000037 500   L $$aStencil.
+000000037 650 7 L $$aAfro-Americans$$xreligion$$xbibliography$$2atla
+000000037 SID   L $$c38$$balma
+000000037 CAT   L $$aCONV-ISBD$$b$$c20120401$$lFIN01$$h2007
+000000037 CAT   L $$aCONV-RDA$$b$$c20160319$$lFIN01$$h0811
+000000037 LOW   L $$aALMA
+000000038 FMT   L BK
+000000038 LDR   L ^^^^^cam^a22003977i^4500
+000000038 001   L 000000038
+000000038 005   L 20150413130520.0
+000000038 008   L 850625s1983^^^^vc^|||||||||||||||||lat||
+000000038 035   L $$a(FI-MELINDA)000000038
+000000038 0410  L $$alat
+000000038 080   L $$a937$$x(093)
+000000038 24500 L $$aInscriptiones christianae Urbis Romae :$$bseptimo saeculo antiquiores : N. S..$$nVol. 8,$$pCoemeteria viarum Nomentanae et Salariae /$$ccolligere coepit Ioannes Baptista de Rossi ; complevit et editit Antonius Ferrua ; auctoritate Pont. Instituti Archaeologiae Christianae Societatis Romanae ab historia patri.
+000000038 260   L $$aRoma :$$bPont. Inst. Archaeologiae Christ.,$$c1983.
+000000038 300   L $$aVIII, 494 s. :$$bill. ;$$cbil
+000000038 336   L $$ateksti$$btxt$$2rdacontent
+000000038 337   L $$akäytettävissä ilman laitetta$$bn$$2rdamedia
+000000038 338   L $$anide$$bnc$$2rdacarrier
+000000038 650 7 L $$alatinan kieli$$xantiikki$$xepigrafia$$zRooma$$2ysa
+000000038 650 7 L $$aepigrafia$$xlatinan kieli$$zRooma$$2ysa
+000000038 650 7 L $$acemeteries$$2atla
+000000038 650 7 L $$aChristian antiquities$$2atla
+000000038 650 7 L $$aRome (city)$$xchurch history$$x0030-0600$$2atla
+000000038 650 7 L $$aLatin inscriptions$$2atla
+000000038 650 7 L $$aepitaphs$$2atla
+000000038 7001  L $$aDe Rossi, Giovanni Battista,$$d1822-1894.
+000000038 7001  L $$aFerrua, Antonio.
+000000038 SID   L $$c39$$balma
+000000038 SID   L $$c494566$$bhelka
+000000038 CAT   L $$aCONV-ISBD$$b$$c20120401$$lFIN01$$h2007
+000000038 CAT   L $$aLOAD-FIX$$b30$$c20141219$$lFIN01$$h1237
+000000038 CAT   L $$aLOAD-FIX$$b30$$c20141219$$lFIN01$$h1237
+000000038 CAT   L $$aHELKA4100$$b30$$c20150413$$lFIN01$$h1300
+000000038 CAT   L $$aHELKA4100$$b30$$c20150413$$lFIN01$$h1305
+000000038 CAT   L $$aCONV-RDA$$b$$c20160319$$lFIN01$$h0811
+000000038 LOW   L $$aALMA
+000000038 LOW   L $$aHELKA
+000000039 FMT   L BK
+000000039 LDR   L ^^^^^cam^a22003497i^4500
+000000039 001   L 000000039
+000000039 005   L 20141229140030.0
+000000039 008   L 850625s1984^^^^gw^||||||m^^^|||||||ger||
+000000039 035   L $$a(FI-MELINDA)000000039
+000000039 0410  L $$ager
+000000039 080   L $$a299.5$$x(519.3/.5)$$x(091)
+000000039 1000  L $$aWissinger, Uwe.
+000000039 24510 L $$aGeschichte und Religion Koreas im Spannungsfeld der grossen Religionen und Reiche Ostasiens :$$bschamanistische, buddhistische, taoistische und konfuzianistische Grundlagen für die soziale und kulturelle Entwicklung des Landes.$$nT 1,$$pVon der Steinzeit bis zum Ende der Koryǒ-Dynastie /$$cvon Uwe Wissinger.
+000000039 260   L $$aBerlin,$$c1984.
+000000039 300   L $$a845 s.
+000000039 336   L $$ateksti$$btxt$$2rdacontent
+000000039 337   L $$akäytettävissä ilman laitetta$$bn$$2rdamedia
+000000039 338   L $$anide$$bnc$$2rdacarrier
+000000039 502   L $$aVäitöskirja$$cBerlin : Freie Universität$$d1984.
+000000039 650 7 L $$aKorea$$xhistory$$2atla
+000000039 650 7 L $$aKorea$$xreligion$$2atla
+000000039 650 7 L $$aBuddhism$$xKorea$$2atla
+000000039 650 7 L $$aConfucianism$$2atla
+000000039 650 7 L $$aTaoism$$2atla
+000000039 SID   L $$c40$$balma
+000000039 SID   L $$c6376$$bhelka
+000000039 CAT   L $$aCONV-ISBD$$b$$c20120401$$lFIN01$$h2007
+000000039 CAT   L $$aLOAD-HELKA$$b$$c20140424$$lFIN01$$h0209
+000000039 CAT   L $$aLOAD-FIX$$b30$$c20141229$$lFIN01$$h1400
+000000039 CAT   L $$aCONV-RDA$$b$$c20160319$$lFIN01$$h0811
+000000039 LOW   L $$aALMA
+000000039 LOW   L $$aHELKA
+000000040 FMT   L BK
+000000040 LDR   L ^^^^^cam^a22003254i^4500
+000000040 001   L 000000040
+000000040 005   L 20010520181034.0
+000000040 008   L 850625s1983^^^^ne^||||||m^^^|||||||eng||
+000000040 0410  L $$aeng
+000000040 080   L $$a299.31
+000000040 080   L $$a291.213
+000000040 1001  L $$aDemaree, Robert Johannes.
+000000040 24514 L $$aThe 3h íkr n Rc-stelae :$$bon ancestor worship in ancient Egypt /$$cdoor Robert Johannes Demaree.
+000000040 260   L $$aLeiden,$$c1983.
+000000040 300   L $$a322, [20] s., XIX pl. :$$bill. +$$ebil. [4 s.].
+000000040 336   L $$ateksti$$btxt$$2rdacontent
+000000040 337   L $$akäytettävissä ilman laitetta$$bn$$2rdamedia
+000000040 338   L $$anide$$bnc$$2rdacarrier
+000000040 502   L $$aVäitöskirja$$cUniversiteit van Amsterdam$$d1983.
+000000040 650 7 L $$asteele (archaeology)$$2atla
+000000040 650 7 L $$aancestor worship$$2atla
+000000040 650 7 L $$aEgypt$$xantiquities$$2atla
+000000040 650 7 L $$aEgypt$$xreligion$$xancient period$$2atla
+000000040 650 7 L $$aEgyptian language$$xinscriptions$$2atla
+000000040 651 7 L $$aEgypten$$2ysa
+000000040 651 7 L $$aEgypti$$2ysa
+000000040 SID   L $$c42$$balma
+000000040 CAT   L $$aCONV-ISBD$$b$$c20120401$$lFIN01$$h2007
+000000040 CAT   L $$aCONV-RDA$$b$$c20160319$$lFIN01$$h0811
+000000040 LOW   L $$aALMA
+000000041 FMT   L BK
+000000041 LDR   L ^^^^^cam^a22002897i^4500
+000000041 001   L 000000041
+000000041 005   L 20110316120234.0
+000000041 008   L 850625s1983^^^^xxk|||||||||||||||||eng||
+000000041 020   L $$z0-370-39068-5
+000000041 0410  L $$aeng
+000000041 080   L $$a308$$x(6)
+000000041 1000  L $$aLamb, David.
+000000041 24514 L $$aThe Africans /$$cDavid Lamb.
+000000041 260   L $$aLondon :$$bBodley Head,$$c1983.
+000000041 300   L $$axv, 363 s. :$$bkart.
+000000041 336   L $$ateksti$$btxt$$2rdacontent
+000000041 337   L $$akäytettävissä ilman laitetta$$bn$$2rdamedia
+000000041 338   L $$anide$$bnc$$2rdacarrier
+000000041 500   L $$aCop. 1982
+000000041 650 7 L $$aAfrica$$2atla
+000000041 650 7 L $$aAfrica$$xpolitics$$2atla
+000000041 650 7 L $$aAfrica$$xsocio-economic conditions$$2atla
+000000041 SID   L $$c43$$balma
+000000041 CAT   L $$aHELKA4100$$b30$$c20110316$$lFIN01$$h1202
+000000041 CAT   L $$aCONV-ISBD$$b$$c20120401$$lFIN01$$h2007
+000000041 CAT   L $$aCONV-RDA$$b$$c20160319$$lFIN01$$h0811
+000000041 LOW   L $$aALMA
+000000042 FMT   L BK
+000000042 LDR   L ^^^^^cam^a22002777i^4500
+000000042 001   L 000000042
+000000042 005   L 20010520181034.0
+000000042 008   L 850916s1984^^^^xxu||||||b^^^|||||||eng||
+000000042 0410  L $$aeng
+000000042 080   L $$a016
+000000042 080   L $$a281.9
+000000042 24500 L $$aEastern Christianity :$$ba bibliography selected from the ATLA Religion database /$$ced. by Paul D. Petersen ; Ruth F. Frazer, general ed.
+000000042 250   L $$aRev. ed.
+000000042 260   L $$a[Chicago] :$$bAmerican Theological Library Association,$$c1984.
+000000042 300   L $$a781 s
+000000042 336   L $$ateksti$$btxt$$2rdacontent
+000000042 337   L $$akäytettävissä ilman laitetta$$bn$$2rdamedia
+000000042 338   L $$anide$$bnc$$2rdacarrier
+000000042 590   L $$a2 vol.
+000000042 650 7 L $$aOrthodox Eastern Church$$xbibliography$$2atla
+000000042 7001  L $$aPetersen, Paul D.
+000000042 7001  L $$aFrazer, Ruth F.
+000000042 SID   L $$c44$$balma
+000000042 CAT   L $$aCONV-ISBD$$b$$c20120401$$lFIN01$$h2007
+000000042 CAT   L $$aCONV-RDA$$b$$c20160319$$lFIN01$$h0811
+000000042 LOW   L $$aALMA
+000000043 FMT   L BK
+000000043 LDR   L ^^^^^cam^a22003257i^4500
+000000043 001   L 000000043
+000000043 005   L 20010520181034.0
+000000043 008   L 851105s1983^^^^no^|||||||||||||||||mul||
+000000043 0410  L $$amul
+000000043 080   L $$a326.8
+000000043 080   L $$a326:93/99
+000000043 080   L $$a93/99
+000000043 080   L $$a326
+000000043 24500 L $$aSlaveri og avvikling i komparativt perspektiv :$$brapport fra et seminar i Trondheim, mai 1983 /$$cutg. av Øivind Andersen.
+000000043 260   L $$aTrondheim ;$$a[Oslo] :$$b[Universitetsbokh. distr.],$$c1983.
+000000043 300   L $$a251 s.
+000000043 336   L $$ateksti$$btxt$$2rdacontent
+000000043 337   L $$akäytettävissä ilman laitetta$$bn$$2rdamedia
+000000043 338   L $$anide$$bnc$$2rdacarrier
+000000043 650 7 L $$aslave trade$$2atla
+000000043 650 7 L $$aslavery$$2atla
+000000043 650 7 L $$aslavery and the church$$2atla
+000000043 650 7 L $$aslavery and the church$$xAnglican communion$$2atla
+000000043 7001  L $$aAndersen, Øivind.
+000000043 SID   L $$c45$$balma
+000000043 SID   L $$c12173$$boula
+000000043 CAT   L $$aCONV-ISBD$$b$$c20120401$$lFIN01$$h2007
+000000043 CAT   L $$aCONV-RDA$$b$$c20160319$$lFIN01$$h0811
+000000043 LOW   L $$aALMA
+000000043 LOW   L $$aOULA
+000000044 FMT   L BK
+000000044 LDR   L ^^^^^cam^a22003137i^4500
+000000044 001   L 000000044
+000000044 005   L 20010520181034.0
+000000044 008   L 880627s1980^^^^au^|||||||||||||||||eng||
+000000044 0410  L $$aeng
+000000044 080   L $$a271.71$$x(436)
+000000044 1112  L $$aInternational Congress on Carthusian History and Spirituality$$n(2 :$$d1980 :$$cAggs bach).
+000000044 24514 L $$aDie Kartäuser in Österreich /$$cJames Hogg.
+000000044 260   L $$aSalzburg :$$bInstitut für Anglistik und Amerikanistik. Universität Salzburg,$$c1980-81.
+000000044 300   L $$a3 vol
+000000044 336   L $$ateksti$$btxt$$2rdacontent
+000000044 337   L $$akäytettävissä ilman laitetta$$bn$$2rdamedia
+000000044 338   L $$anide$$bnc$$2rdacarrier
+000000044 4901  L $$aAnalecta cartusiana ;$$v83
+000000044 650 7 L $$aCarthusians$$xhistory$$xcongresses$$2atla
+000000044 650 7 L $$aCarthusians$$xrelations$$xCistersians$$2atla
