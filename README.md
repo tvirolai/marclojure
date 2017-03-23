@@ -2,8 +2,7 @@
 
 [![Clojars Project](https://img.shields.io/clojars/v/marc-clojure.svg)](https://clojars.org/marc-clojure)
 [![Build Status](https://travis-ci.org/tvirolai/marc-clojure.svg?branch=master)](https://travis-ci.org/tvirolai/marc-clojure)
-[![codecov](https://codecov.io/gh/tvirolai/marc-clojure/branch/master/graph/badge.svg)]
- (https://codecov.io/gh/tvirolai/marc-clojure)
+[![codecov](https://codecov.io/gh/tvirolai/marc-clojure/branch/master/graph/badge.svg)](https://codecov.io/gh/tvirolai/marc-clojure)
 [![Downloads](https://jarkeeper.com/tvirolai/marc-clojure/downloads.svg)](https://jarkeeper.com/tvirolai/marc-clojure)
 [![Dependencies Status](https://jarkeeper.com/tvirolai/marc-clojure/status.png)](https://jarkeeper.com/tvirolai/marc-clojure)
 
@@ -22,7 +21,7 @@ records back to file is not yet supported, but this functionality is upcoming.
 marc-clojure is available from [Clojars](https://clojars.org/marc-clojure). Add it to your `project.clj` as follows:
 
 ```clojure
-[marc-clojure "0.2.3"]
+[marc-clojure "0.2.4"]
 ```
 
 Then you can require it into your namespace:
