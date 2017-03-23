@@ -5,6 +5,7 @@
 /data/*.marc
 /data/*.xml
 /data/*.seq
+*.seq
 pom.xml
 pom.xml.asc
 *.iml
