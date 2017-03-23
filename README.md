@@ -5,7 +5,7 @@
 
 ## About
 
-*marc-clojure* is a library for processing [MARC records](https://en.wikipedia.org/wiki/MARC_standards) using Clojure. It can be used to
+*marc-clojure* is a library for - can you guess? - processing [MARC records](https://en.wikipedia.org/wiki/MARC_standards) using Clojure. It can be used to
 serialize MARC records in ISO 2709 (MARC exchange format), MARCXML or Aleph Sequential formats into Clojure maps. Writing
 records back to file is not yet supported, but this functionality is upcoming.
 
@@ -18,7 +18,7 @@ records back to file is not yet supported, but this functionality is upcoming.
 marc-clojure is available from [Clojars](https://clojars.org/marc-clojure). Add it to your `project.clj` as follows:
 
 ```clojure
-[marc-clojure "0.1.0-SNAPSHOT"]
+[marc-clojure "0.2.0"]
 ```
 
 Then you can require it into your namespace:
@@ -38,6 +38,7 @@ An example:
 
 ```clojure
 (def dataset (parse/load-data :marc "somefile.mrc"))
+=> #'foo.bar/dataset
 ```
 
 Serialized records are represented as Clojure maps. The format looks as follows:
@@ -60,12 +61,15 @@ Serialized records are represented as Clojure maps. The format looks as follows:
                        {:code "b", :data "an annotated bibliography /"}
                        {:code "c", :data "Unesco Nutrition Education Programme ; Division of Science, Technical and Environmental Education, Unesco."}]}
           {:type "datafield"
-           :tag "260" :i1 " "
-           :i2 " ", :subfields [{:code "a", :data "Paris :"}
-                                {:code "b", :data "Unesco,"}
-                                {:code "c", :data "1986."}]}
+           :tag "260"
+           :i1 " "
+           :i2 " "
+           :subfields [{:code "a", :data "Paris :"}
+                       {:code "b", :data "Unesco,"}
+                       {:code "c", :data "1986."}]}
           {:type "datafield"
-           :tag "300" :i1 " "
+           :tag "300"
+           :i1 " "
            :i2 " "
            :subfields [{:code "a", :data "103 sivua"}]}
           {:type "datafield"
@@ -122,16 +126,20 @@ Serialized records are represented as Clojure maps. The format looks as follows:
                        {:code "c", :data "Unesco 2-464"}]}]}
 ```
 
-Apart from parsing MARC data the `marc-clojure.core` namespace provides some utility functions
+Apart from parsing MARC data, the `marc-clojure.core` namespace provides some utility functions
 for processing record sequences. Some examples (here the core namespace is loaded as `marc`, see above).
 
 ```clojure
 (def batch (parse/load-data :marc "marcdata.mrc"))
 => #'foo.bar/batch
+```
 
+```clojure
 (def record (first batch))
 => #'foo.bar/record
+```
 
+```clojure
 (marc/to-string record))
 =>
 "000    00000cam^a22004097i^4500
@@ -151,25 +159,39 @@ for processing record sequences. Some examples (here the core namespace is loade
  338    $anide$bnc$2rdacarrier
  490 1  $aBibliotheca karaitica. Series A ;$vvol. 1
  650  7 $atalotekniikka$2ysa"
+```
 
+```clojure
 (-> record (marc/get-fields "245") first field-to-string)
 => "245 13 $aLe karaïsme :$bses doctrines et son histoire /$cSimon Szyszman."
+```
 
+```clojure
 (marc/get-subfields record "245" "a")
 => ({:code "a", :data "La karaisme"})
+```
 
+```clojure
 (marc/print-to-file batch "outputfile.txt")
 => nil
+```
 
+```clojure
 (marc/print-ids-to-file batch "outputfile_ids.txt")
 => nil
+```
 
+```clojure
 (marc/record-contains-phrase? record ["lausanne" "hard rock"])
 => true
+```
 
+```clojure
 (marc/contains-field? record "130")
 => false
+```
 
+```clojure
 (marc/field-contains-phrase? record "100" "Simon")
 => true
 
@@ -185,7 +207,7 @@ for processing record sequences. Some examples (here the core namespace is loade
 
 `clojure-marc` uses [freelib-marc4j](https://github.com/ksclarke/freelib-marc4j) for reading MARC data. Thanks for that!
 
-Aleph Sequential parser is based on [https://github.com/phochste/clj-marc](clj-marc).
+Aleph Sequential parser is based on [clj-marc](https://github.com/phochste/clj-marc).
 
 ## License
 

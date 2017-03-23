@@ -57,8 +57,6 @@
 
 ;; Parse data in Aleph sequential format
 
-(def data "./data/testidata.seq")
-
 (defn- marc-boundary?
   [line]
   (not (nil? (re-matches #"^[0-9]{9} FMT.*" line))))
@@ -86,9 +84,10 @@
   [line]
   (let [sfs (-> line get-content-aleph (s/split #"\$\$") rest)]
     (->> sfs
-         (map #(hash-map :code (subs % 0 1)
-                         :data (subs % 1)))
-         vec)))
+         (map (fn [sf]
+                (hash-map :code (subs sf 0 1)
+                          :data (if (> (count sf) 1) (subs sf 1) "")))
+         vec))))
 
 (defn parse-field-aleph [line]
   (let [tag (subs line 10 13)
