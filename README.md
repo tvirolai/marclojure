@@ -202,12 +202,12 @@ for processing record sequences. Some examples (here the core namespace is loade
 ## TODO
 
 * Writing serialized records to file
-* Remove `freelib-marc4j` Java library from dependencies, move to pure Clojure implementation
+* Remove `marc4j` Java library from dependencies, move to pure Clojure implementation
 * Add test coverage
 
 ## Thanks
 
-`clojure-marc` uses [freelib-marc4j](https://github.com/ksclarke/freelib-marc4j) for reading MARC data. Thanks for that!
+`clojure-marc` uses [marc4j](https://github.com/marc4j/marc4j) for reading MARC data. Thanks for that!
 
 Aleph Sequential parser is based on [clj-marc](https://github.com/phochste/clj-marc).
 
