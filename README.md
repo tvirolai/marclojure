@@ -2,6 +2,8 @@
 
 [![Clojars Project](https://img.shields.io/clojars/v/marc-clojure.svg)](https://clojars.org/marc-clojure)
 [![Build Status](https://travis-ci.org/tvirolai/marc-clojure.svg?branch=master)](https://travis-ci.org/tvirolai/marc-clojure)
+[![Downloads](https://jarkeeper.com/tvirolai/marc-clojure/downloads.svg)](https://jarkeeper.com/tvirolai/marc-clojure)
+[![Dependencies Status](https://jarkeeper.com/tvirolai/marc-clojure/status.png)](https://jarkeeper.com/tvirolai/marc-clojure)
 
 ## About
 
