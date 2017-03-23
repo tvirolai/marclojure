@@ -21,7 +21,7 @@ records back to file is not yet supported, but this functionality is upcoming.
 marc-clojure is available from [Clojars](https://clojars.org/marc-clojure). Add it to your `project.clj` as follows:
 
 ```clojure
-[marc-clojure "0.2.4"]
+[marc-clojure "0.2.5"]
 ```
 
 Then you can require it into your namespace:
