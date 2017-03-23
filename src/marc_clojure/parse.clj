@@ -86,8 +86,8 @@
     (->> sfs
          (map (fn [sf]
                 (hash-map :code (subs sf 0 1)
-                          :data (if (> (count sf) 1) (subs sf 1) "")))
-         vec))))
+                          :data (if (> (count sf) 1) (subs sf 1) ""))))
+         vec)))
 
 (defn parse-field-aleph [line]
   (let [tag (subs line 10 13)

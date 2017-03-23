@@ -4,7 +4,16 @@
             [marc-clojure.parse :refer :all]))
 
 (def testrecord
-  (read-string (slurp "./data/testrecord.edn")))
+  (read-string (slurp "./testdata/testrecord.edn")))
+
+(def testrec-marc
+  (load-data :marc "./testdata/testdata.mrc"))
+
+(def testrec-xml
+  (load-data :marcxml "./testdata/testdata.xml"))
+
+(def testrec-aleph
+  (load-data :aleph "./testdata/testdata.seq"))
 
 (deftest accessors
   (testing "Membership in record"
@@ -30,3 +39,14 @@
     (is (true? (field-contains-phrase testrecord "338" ["nide" "Bama lama" "HEAVY METAL"])))
     (is (false? (field-contains-phrase testrecord "338" ["yeehaw" "hello"])))))
 
+(deftest parsing
+  (testing "ISO 2709 parsing succeeds"
+    (is (true? (seq? testrec-marc))))
+  (testing "Aleph Sequential parsing succeeds"
+    (is (true? (seq? testrec-aleph))))
+  (testing "MARCXML parsing succeeds"
+    (is (true? (seq? testrec-xml))))
+  (testing "Record structure should be sane, with a 245 field in each"
+    (is (true? (every? true? (map #(contains-field? % "245") testrec-marc))))
+    (is (true? (every? true? (map #(contains-field? % "245") testrec-aleph))))
+    (is (true? (every? true? (map #(contains-field? % "245") testrec-xml))))))
