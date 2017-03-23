@@ -1,4 +1,4 @@
-(defproject marc-clojure "0.2.0"
+(defproject marc-clojure "0.2.1"
   :description "A library for parsing MARC records"
   :url "http://github.com/tvirolai/marc-clojure"
   :license {:name "Eclipse Public License"
