@@ -1,4 +1,4 @@
-# marc-clojure
+# marclojure
 
 [![Clojars Project](https://img.shields.io/clojars/v/marclojure.svg)](https://clojars.org/marclojure)
 [![Build Status](https://travis-ci.org/tvirolai/marclojure.svg?branch=master)](https://travis-ci.org/tvirolai/marclojure)
@@ -8,7 +8,7 @@
 
 ## About
 
-*marclojure* is a library for - can you guess? - processing [MARC records](https://en.wikipedia.org/wiki/MARC_standards) using Clojure. It can be used to serialize MARC records in ISO 2709 (MARC exchange format), MARCXML or Aleph Sequential formats into Clojure maps, process them and write them back to file. Writing is currently possible in MARCXML and Aleph Sequential, ISO 2709 support is going to be supported very soon.
+*marclojure* is a library for - can you guess? - processing [MARC records](https://en.wikipedia.org/wiki/MARC_standards) using Clojure. It can be used to serialize MARC records in ISO 2709 (MARC exchange format), MARCXML or Aleph Sequential formats into Clojure maps, process them and write them back to file. Writing is currently possible in MARCXML and Aleph Sequential, ISO 2709 is going to be supported very soon.
 
 ## Latest version
 
@@ -16,7 +16,7 @@
 
 ## Installation
 
-marc-clojure is available from [Clojars](https://clojars.org/marclojure). Add it to your `project.clj` as follows:
+marclojure is available from [Clojars](https://clojars.org/marclojure). Add it to your `project.clj` as follows:
 
 ```clojure
 [marclojure "0.2.6"]
@@ -35,6 +35,8 @@ Then you can require it into your namespace:
 
 MARC batch files can be read into lazy sequences using the `load-data` multimethod from `marclojure.parser` namespace.
 Load-data accepts two arguments: file format (keyword, possible options are `:marc`, `:marcxml` or `:aleph`) and a filename.
+
+Note that system-specific fields (LOW, SID, FMT etc.) are not retained when parsing Aleph Sequential data.
 
 An example:
 
@@ -128,7 +130,7 @@ Serialized records are represented as Clojure maps. The format looks as follows:
                        {:code "c", :data "Unesco 2-464"}]}]}
 ```
 
-Apart from parsing MARC data, the `marc-clojure.core` namespace provides some utility functions
+Apart from parsing MARC data, the `marclojure.core` namespace provides some utility functions
 for processing record sequences. Some examples (here the core namespace is loaded as `marc`, see above).
 
 ```clojure
@@ -204,7 +206,7 @@ Writing records to file is done as follows:
 ```clojure
 (writer/write-data :marcxml batch "outputfile.xml")
 => nil
-(writer/write-data :alpeh batch "outputfile.seq")
+(writer/write-data :aleph batch "outputfile.seq")
 => nil
 ```
 
@@ -216,7 +218,7 @@ Writing records to file is done as follows:
 
 ## Thanks
 
-`clojure-marc` uses [marc4j](https://github.com/marc4j/marc4j) for reading MARC data. Thanks for that!
+`marclojure` uses [marc4j](https://github.com/marc4j/marc4j) for reading MARC data. Thanks for that!
 
 Aleph Sequential parser is based on [clj-marc](https://github.com/phochste/clj-marc).
 
