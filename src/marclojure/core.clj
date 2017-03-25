@@ -1,6 +1,6 @@
-(ns marc-clojure.core
+(ns marclojure.core
   (:require [clojure.string :as s]
-            [marc-clojure.parse :refer [load-data]]))
+            [marclojure.parser :refer [load-data]]))
 
 (defn get-fields [record tag]
   (->> record :fields (filter #(= tag (:tag %)))))

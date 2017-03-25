@@ -1,4 +1,4 @@
-(ns marc-clojure.parse
+(ns marclojure.parser
   (:require [clojure.string :as s]))
 
 (defn iterator->lazyseq

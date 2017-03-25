@@ -1,7 +1,8 @@
-(ns marc-clojure.core-test
+(ns marclojure.core-test
   (:require [clojure.test :refer :all]
-            [marc-clojure.core :refer :all]
-            [marc-clojure.parse :refer :all]))
+            [marclojure.core :refer :all]
+            [marclojure.parser :refer :all]
+            [marclojure.writer :refer :all]))
 
 (def testrecord
   (read-string (slurp "./testdata/testrecord.edn")))
@@ -50,3 +51,4 @@
     (is (true? (every? true? (map #(contains-field? % "245") testrec-marc))))
     (is (true? (every? true? (map #(contains-field? % "245") testrec-aleph))))
     (is (true? (every? true? (map #(contains-field? % "245") testrec-xml))))))
+

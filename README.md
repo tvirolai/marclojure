@@ -1,46 +1,45 @@
 # marc-clojure
 
-[![Clojars Project](https://img.shields.io/clojars/v/marc-clojure.svg)](https://clojars.org/marc-clojure)
-[![Build Status](https://travis-ci.org/tvirolai/marc-clojure.svg?branch=master)](https://travis-ci.org/tvirolai/marc-clojure)
-[![codecov](https://codecov.io/gh/tvirolai/marc-clojure/branch/master/graph/badge.svg)](https://codecov.io/gh/tvirolai/marc-clojure)
-[![Downloads](https://jarkeeper.com/tvirolai/marc-clojure/downloads.svg)](https://jarkeeper.com/tvirolai/marc-clojure)
-[![Dependencies Status](https://jarkeeper.com/tvirolai/marc-clojure/status.png)](https://jarkeeper.com/tvirolai/marc-clojure)
+[![Clojars Project](https://img.shields.io/clojars/v/marclojure.svg)](https://clojars.org/marclojure)
+[![Build Status](https://travis-ci.org/tvirolai/marclojure.svg?branch=master)](https://travis-ci.org/tvirolai/marclojure)
+[![codecov](https://codecov.io/gh/tvirolai/marclojure/branch/master/graph/badge.svg)](https://codecov.io/gh/tvirolai/marclojure)
+[![Downloads](https://jarkeeper.com/tvirolai/marclojure/downloads.svg)](https://jarkeeper.com/tvirolai/marclojure)
+[![Dependencies Status](https://jarkeeper.com/tvirolai/marclojure/status.png)](https://jarkeeper.com/tvirolai/marclojure)
 
 ## About
 
-*marc-clojure* is a library for - can you guess? - processing [MARC records](https://en.wikipedia.org/wiki/MARC_standards) using Clojure. It can be used to
-serialize MARC records in ISO 2709 (MARC exchange format), MARCXML or Aleph Sequential formats into Clojure maps. Writing
-records back to file is not yet supported, but this functionality is upcoming.
+*marclojure* is a library for - can you guess? - processing [MARC records](https://en.wikipedia.org/wiki/MARC_standards) using Clojure. It can be used to serialize MARC records in ISO 2709 (MARC exchange format), MARCXML or Aleph Sequential formats into Clojure maps, process them and write them back to file. Writing is currently possible in MARCXML and Aleph Sequential, ISO 2709 support is going to be supported very soon.
 
 ## Latest version
 
-[![Clojars Project](http://clojars.org/marc-clojure/latest-version.svg)](http://clojars.org/marc-clojure)
+[![Clojars Project](http://clojars.org/marclojure/latest-version.svg)](http://clojars.org/marclojure)
 
 ## Installation
 
-marc-clojure is available from [Clojars](https://clojars.org/marc-clojure). Add it to your `project.clj` as follows:
+marc-clojure is available from [Clojars](https://clojars.org/marclojure). Add it to your `project.clj` as follows:
 
 ```clojure
-[marc-clojure "0.2.5"]
+[marclojure "0.2.6"]
 ```
 
 Then you can require it into your namespace:
 
 ```clojure
 (ns foo.bar
-  (:require [marc-clojure.core :as marc]
-            [marc-clojure.parse :as parse]))
+  (:require [marclojure.core :as marc]
+            [marclojure.parser :as parser]
+            [marclojure.writer :as writer]))
 ```
 
 ## Usage
 
-MARC batch files can be read into lazy sequences using the `load-data` multimethod from `clojure-marc.parse` namespace.
+MARC batch files can be read into lazy sequences using the `load-data` multimethod from `marclojure.parser` namespace.
 Load-data accepts two arguments: file format (keyword, possible options are `:marc`, `:marcxml` or `:aleph`) and a filename.
 
 An example:
 
 ```clojure
-(def dataset (parse/load-data :marc "somefile.mrc"))
+(def dataset (parser/load-data :marc "somefile.mrc"))
 => #'foo.bar/dataset
 ```
 
@@ -133,7 +132,7 @@ Apart from parsing MARC data, the `marc-clojure.core` namespace provides some ut
 for processing record sequences. Some examples (here the core namespace is loaded as `marc`, see above).
 
 ```clojure
-(def batch (parse/load-data :marc "marcdata.mrc"))
+(def batch (parser/load-data :marc "marcdata.mrc"))
 => #'foo.bar/batch
 ```
 
@@ -200,9 +199,18 @@ for processing record sequences. Some examples (here the core namespace is loade
 
 ```
 
+Writing records to file is done as follows:
+
+```clojure
+(writer/write-data :marcxml batch "outputfile.xml")
+=> nil
+(writer/write-data :alpeh batch "outputfile.seq")
+=> nil
+```
+
 ## TODO
 
-* Writing serialized records to file
+* Writing ISO 2709 format
 * Remove `marc4j` Java library from dependencies, move to pure Clojure implementation
 * Add test coverage
 
