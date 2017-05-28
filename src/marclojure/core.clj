@@ -44,14 +44,14 @@
          (apply str)
          (spit filename))))
 
-(defn record-contains-phrase 
+(defn record-contains-phrase?
   "Takes a record and a vector of phrases.
   Returns true if the record contains some of the phrases."
   [record phrases]
   (let [recstring (s/lower-case (to-string record))]
     (boolean (some true? (map #(.contains recstring (s/lower-case %)) phrases)))))
 
-(defn field-contains-phrase [record tag phrases]
+(defn field-contains-phrase? [record tag phrases]
   (let [field (->> (get-fields record tag) (map field-to-string) (s/join " ") s/lower-case)]
     (boolean (some true? (map #(.contains field (s/lower-case %)) phrases)))))
 

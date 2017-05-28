@@ -4,7 +4,7 @@
             [marclojure.parser :refer [load-data]]
             [marclojure.core :as core]))
 
-(defn- field-length 
+(defn- field-length
   "Get field length of the binary representation."
   [field]
   (if (= "controlfield" (:type field))
@@ -13,7 +13,7 @@
       (reduce + 3
         (map #(+ 2 (count (:data %))) sfs)))))
 
-(defn- number-padding 
+(defn- number-padding
   "Parses a number to a string with padding of zeroes.
   Example: 4 -> 0004"
   [number length]
@@ -27,15 +27,15 @@
     (if (empty? fields)
       dir
       (recur 
-        (str dir (:tag curr) 
+        (str dir (:tag curr)
              (number-padding (field-length curr) 4)
              (number-padding index 5))
         (+ index (field-length curr))
         (first fields)
         (rest fields)))))
 
-(defn- rec-fmt 
-  "Define a record format for Aleph Sequential FMT field." 
+(defn- rec-fmt
+  "Define a record format for Aleph Sequential FMT field."
   [record]
   (let [leader (:leader record)
         l6 (subs leader 6 7)
@@ -55,7 +55,7 @@
 (defn- parse-field-aleph [id field]
   (let [i1 (if (core/datafield? field) (:i1 field) " ")
         i2 (if (core/datafield? field) (:i2 field) " ")
-        content (s/replace 
+        content (s/replace
                   (subs (core/field-to-string field) 7)
                   #"\$"
                   "\\$\\$")]
@@ -87,10 +87,10 @@
 (defmulti write-data (fn [format data filename] format))
 
 (defmethod write-data :marcxml [_ data filename]
-  (let [xmldata (if (seq? data) 
+  (let [xmldata (if (seq? data)
                   (map to-marcxml data)
                   (to-marcxml data))
-        outputdata (xml/element 
+        outputdata (xml/element
                      :collection {:xmlns "http://www.loc.gov/MARC21/slim"} xmldata)]
     (with-open [out (java.io.FileWriter. filename)]
       (xml/emit outputdata out))))
