@@ -6,7 +6,7 @@
   (->> record :fields (filter #(= tag (:tag %)))))
 
 (defn contains-field? [record tag]
-  (< 0 (count (get-fields record tag))))
+  (pos? (count (get-fields record tag))))
 
 (defn get-subfields
   ([field code]
@@ -31,13 +31,13 @@
     (apply str leader "\n" (s/join "\n" (map field-to-string fields)))))
 
 (defn print-to-file [recs filename]
-  (when (not (empty? recs))
+  (when (seq recs)
     (do
       (spit filename (str (to-string (first recs)) "\n\n") :append true)
       (recur (rest recs) filename))))
 
 (defn print-ids-to-file [recs filename]
-  (when (not (empty? recs))
+  (when (seq recs)
     (->> recs
          (map :bibid)
          (s/join "\n")

@@ -26,7 +26,7 @@
          fields (rest (:fields record))]
     (if (empty? fields)
       dir
-      (recur 
+      (recur
         (str dir (:tag curr)
              (number-padding (field-length curr) 4)
              (number-padding index 5))
@@ -99,6 +99,6 @@
   (with-open [out (clojure.java.io/writer filename)]
     (binding [*out* out]
       (if (seq? data)
-        (println (apply str (map to-aleph data)))
+        (println (s/join (map to-aleph data)))
         (println (str (to-aleph data)))))))
 

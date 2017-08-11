@@ -74,7 +74,7 @@
   (subs line 14 15))
 
 (defn- aleph-internal-field? [line]
-  (not (empty? (re-seq #"[A-Z]" (get-tag-aleph line)))))
+  (seq (re-seq #"[A-Z]" (get-tag-aleph line))))
 
 (defn remove-leading-zeros [string]
   (->> string Integer. str))
@@ -104,7 +104,7 @@
 
 (defn serialize-record-aleph [data]
   (let [ldr (->> data (filter #(= "LDR" (get-tag-aleph %))) first get-content-aleph)
-        content (->> data (remove aleph-internal-field?))
+        content (remove aleph-internal-field? data)
         id (->> content (filter #(= "001" (get-tag-aleph %))) first get-content-aleph remove-leading-zeros)]
     {:bibid id
      :leader ldr
@@ -114,11 +114,11 @@
 
 (defmethod load-data :marc [_ filename]
   (let [recseq (-> filename java.io.FileInputStream. org.marc4j.MarcStreamReader. iterator->lazyseq)]
-    (pmap (comp serialize-record #(.toString %)) recseq)))
+    (pmap (comp serialize-record str) recseq)))
 
 (defmethod load-data :marcxml [_ filename]
   (let [recseq (-> filename java.io.FileInputStream. org.marc4j.MarcXmlReader. iterator->lazyseq)]
-    (pmap (comp serialize-record #(.toString %)) recseq)))
+    (pmap (comp serialize-record str) recseq)))
 
 (defmethod load-data :aleph [_ filename]
   (let [lst (line-seq (clojure.java.io/reader filename))

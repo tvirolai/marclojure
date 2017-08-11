@@ -28,17 +28,17 @@
 
 (deftest phrases
   (testing "Record should contain phrase 'intervention'"
-    (is (true? (record-contains-phrase testrecord ["intervention"])))
-    (is (true? (record-contains-phrase testrecord ["intervention" "necro"])))
-    (is (true? (record-contains-phrase testrecord ["Division of Science"])))
-    (is (false? (record-contains-phrase testrecord ["we the best"]))))
+    (is (true? (record-contains-phrase? testrecord ["intervention"])))
+    (is (true? (record-contains-phrase? testrecord ["intervention" "necro"])))
+    (is (true? (record-contains-phrase? testrecord ["Division of Science"])))
+    (is (false? (record-contains-phrase? testrecord ["we the best"]))))
   (testing "Capitalization should not matter"
-    (is (true? (record-contains-phrase testrecord ["division of science"])))
-    (is (true? (record-contains-phrase testrecord ["DIVISION OF SCIENCE"]))))
+    (is (true? (record-contains-phrase? testrecord ["division of science"])))
+    (is (true? (record-contains-phrase? testrecord ["DIVISION OF SCIENCE"]))))
   (testing "field-contains-phrase should return true if any of the input strings are found"
-    (is (true? (field-contains-phrase testrecord "338" ["nide"])))
-    (is (true? (field-contains-phrase testrecord "338" ["nide" "Bama lama" "HEAVY METAL"])))
-    (is (false? (field-contains-phrase testrecord "338" ["yeehaw" "hello"])))))
+    (is (true? (field-contains-phrase? testrecord "338" ["nide"])))
+    (is (true? (field-contains-phrase? testrecord "338" ["nide" "Bama lama" "HEAVY METAL"])))
+    (is (false? (field-contains-phrase? testrecord "338" ["yeehaw" "hello"])))))
 
 (deftest parsing
   (testing "ISO 2709 parsing succeeds"
