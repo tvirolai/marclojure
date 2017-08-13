@@ -2,7 +2,9 @@
   (:require [clojure.string :as s]
             [clojure.data.xml :as xml]
             [marclojure.parser :refer [load-data]]
-            [marclojure.core :as core]))
+            [marclojure.core :as core]
+            [clojure.spec.alpha :as spec]
+            [marclojure.domain :as d]))
 
 (defn- field-length
   "Get field length of the binary representation."
@@ -91,7 +93,9 @@
                   (map to-marcxml data)
                   (to-marcxml data))
         outputdata (xml/element
-                     :collection {:xmlns "http://www.loc.gov/MARC21/slim"} xmldata)]
+                     :collection
+                     {:xmlns "http://www.loc.gov/MARC21/slim"}
+                     xmldata)]
     (with-open [out (java.io.FileWriter. filename)]
       (xml/emit outputdata out))))
 
@@ -101,4 +105,3 @@
       (if (seq? data)
         (println (s/join (map to-aleph data)))
         (println (str (to-aleph data)))))))
-

@@ -18,27 +18,30 @@
 
 (deftest accessors
   (testing "Membership in record"
-    (is (true? (contains-field? testrecord "338")))
-    (is (false? (contains-field? testrecord "339")))))
+    (is (true? (contains-field? "338" testrecord)))
+    (is (false? (contains-field? "339" testrecord)))))
 
 (deftest fieldoperations
   (testing "Field checks"
-    (is (true? (datafield? (first (get-fields testrecord "245")))))
-    (is (false? (datafield? (first (get-fields testrecord "008")))))))
+    (is (true? (datafield? (first (get-fields "245" testrecord)))))
+    (is (false? (datafield? (first (get-fields "008" testrecord)))))))
 
 (deftest phrases
   (testing "Record should contain phrase 'intervention'"
-    (is (true? (record-contains-phrase? testrecord ["intervention"])))
-    (is (true? (record-contains-phrase? testrecord ["intervention" "necro"])))
-    (is (true? (record-contains-phrase? testrecord ["Division of Science"])))
-    (is (false? (record-contains-phrase? testrecord ["we the best"]))))
+    (is (true? (record-contains-phrase? ["intervention"] testrecord)))
+    (is (true? (record-contains-phrase? ["intervention" "necro"] testrecord)))
+    (is (true? (record-contains-phrase? ["Division of Science"] testrecord)))
+    (is (false? (record-contains-phrase? ["we the best"] testrecord))))
   (testing "Capitalization should not matter"
-    (is (true? (record-contains-phrase? testrecord ["division of science"])))
-    (is (true? (record-contains-phrase? testrecord ["DIVISION OF SCIENCE"]))))
-  (testing "field-contains-phrase should return true if any of the input strings are found"
-    (is (true? (field-contains-phrase? testrecord "338" ["nide"])))
-    (is (true? (field-contains-phrase? testrecord "338" ["nide" "Bama lama" "HEAVY METAL"])))
-    (is (false? (field-contains-phrase? testrecord "338" ["yeehaw" "hello"])))))
+    (is (true? (record-contains-phrase? ["division of science"] testrecord)))
+    (is (true? (record-contains-phrase? ["DIVISION OF SCIENCE"] testrecord))))
+  (testing "should return true if any of the input strings are found"
+    (is (true? (field-contains-phrase? "338" ["nide"] testrecord)))
+    (is (true?
+          (field-contains-phrase? "338"
+                                  ["nide" "Bama lama" "HEAVY METAL"]
+                                  testrecord)))
+    (is (false? (field-contains-phrase? "338" ["yeehaw" "hello"] testrecord)))))
 
 (deftest parsing
   (testing "ISO 2709 parsing succeeds"
@@ -48,7 +51,6 @@
   (testing "MARCXML parsing succeeds"
     (is (true? (seq? testrec-xml))))
   (testing "Record structure should be sane, with a 245 field in each"
-    (is (true? (every? true? (map #(contains-field? % "245") testrec-marc))))
-    (is (true? (every? true? (map #(contains-field? % "245") testrec-aleph))))
-    (is (true? (every? true? (map #(contains-field? % "245") testrec-xml))))))
-
+    (is (true? (every? true? (map #(contains-field? "245" %) testrec-marc))))
+    (is (true? (every? true? (map #(contains-field? "245" %) testrec-aleph))))
+    (is (true? (every? true? (map #(contains-field? "245" %) testrec-xml))))))

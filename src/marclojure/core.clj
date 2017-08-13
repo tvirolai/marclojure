@@ -2,17 +2,17 @@
   (:require [clojure.string :as s]
             [marclojure.parser :refer [load-data]]))
 
-(defn get-fields [record tag]
+(defn get-fields [tag record]
   (->> record :fields (filter #(= tag (:tag %)))))
 
-(defn contains-field? [record tag]
-  (pos? (count (get-fields record tag))))
+(defn contains-field? [tag record]
+  (pos? (count (get-fields tag record))))
 
 (defn get-subfields
   ([field code]
    (->> field :subfields (filter #(= code (:code %)))))
-  ([record tag code]
-   (->> (get-fields record tag) (map #(get-subfields % code)) flatten)))
+  ([tag code record]
+   (->> (get-fields tag record) (map #(get-subfields code %)) flatten)))
 
 (defn datafield? [field]
   (= "datafield" (:type field)))
@@ -32,9 +32,8 @@
 
 (defn print-to-file [recs filename]
   (when (seq recs)
-    (do
-      (spit filename (str (to-string (first recs)) "\n\n") :append true)
-      (recur (rest recs) filename))))
+    (spit filename (str (to-string (first recs)) "\n\n") :append true)
+    (recur (rest recs) filename)))
 
 (defn print-ids-to-file [recs filename]
   (when (seq recs)
@@ -47,13 +46,24 @@
 (defn record-contains-phrase?
   "Takes a record and a vector of phrases.
   Returns true if the record contains some of the phrases."
-  [record phrases]
+  [phrases record]
   (let [recstring (s/lower-case (to-string record))]
-    (boolean (some true? (map #(.contains recstring (s/lower-case %)) phrases)))))
+    (boolean
+      (some true?
+            (map #(.contains recstring (s/lower-case %)) phrases)))))
 
-(defn field-contains-phrase? [record tag phrases]
-  (let [field (->> (get-fields record tag) (map field-to-string) (s/join " ") s/lower-case)]
-    (boolean (some true? (map #(.contains field (s/lower-case %)) phrases)))))
+(defn field-contains-phrase? [tag phrases record]
+  (let [field (->> (get-fields tag record)
+                   (map field-to-string)
+                   (s/join " ")
+                   s/lower-case)]
+    (boolean
+      (some true?
+            (map #(.contains field (s/lower-case %)) phrases)))))
 
 (defn field-report [batch tag]
-  (->> batch (map #(get-fields % tag)) (filter not-empty) flatten (map field-to-string)))
+  (->> batch
+       (map #(get-fields % tag))
+       (filter not-empty)
+       flatten
+       (map field-to-string)))

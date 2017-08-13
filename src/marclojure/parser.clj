@@ -103,9 +103,16 @@
        :subfields (parse-subfields-aleph line)})))
 
 (defn serialize-record-aleph [data]
-  (let [ldr (->> data (filter #(= "LDR" (get-tag-aleph %))) first get-content-aleph)
+  (let [ldr (->> data
+                 (filter #(= "LDR" (get-tag-aleph %)))
+                 first
+                 get-content-aleph)
         content (remove aleph-internal-field? data)
-        id (->> content (filter #(= "001" (get-tag-aleph %))) first get-content-aleph remove-leading-zeros)]
+        id (->> content
+                (filter #(= "001" (get-tag-aleph %)))
+                first
+                get-content-aleph
+                remove-leading-zeros)]
     {:bibid id
      :leader ldr
      :fields (vec (map parse-field-aleph content))}))
@@ -113,11 +120,17 @@
 (defmulti load-data (fn [format & _] format))
 
 (defmethod load-data :marc [_ filename]
-  (let [recseq (-> filename java.io.FileInputStream. org.marc4j.MarcStreamReader. iterator->lazyseq)]
+  (let [recseq (-> filename
+                   java.io.FileInputStream.
+                   org.marc4j.MarcStreamReader.
+                   iterator->lazyseq)]
     (pmap (comp serialize-record str) recseq)))
 
 (defmethod load-data :marcxml [_ filename]
-  (let [recseq (-> filename java.io.FileInputStream. org.marc4j.MarcXmlReader. iterator->lazyseq)]
+  (let [recseq (-> filename
+                   java.io.FileInputStream.
+                   org.marc4j.MarcXmlReader.
+                   iterator->lazyseq)]
     (pmap (comp serialize-record str) recseq)))
 
 (defmethod load-data :aleph [_ filename]
