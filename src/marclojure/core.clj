@@ -35,7 +35,16 @@
     (spit filename (str (to-string (first recs)) "\n\n") :append true)
     (recur (rest recs) filename)))
 
-(defn print-ids-to-file [recs filename]
+(defn print-to-repl
+  "Show a single record in human-readable format in the REPL"
+  [record]
+  (doseq [line (s/split (to-string record) #"\n")]
+    (println line)))
+
+(defn print-ids-to-file
+  "Takes a batch of records and a filename,
+  prints the ID's of the recs in the file."
+  [recs filename]
   (when (seq recs)
     (->> recs
          (map :bibid)
