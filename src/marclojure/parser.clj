@@ -1,5 +1,6 @@
 (ns marclojure.parser
-  (:require [clojure.string :as s]))
+  (:require [clojure.string :as s]
+            [clojure.java.io :as io]))
 
 (defn iterator->lazyseq
   "This function transforms a Java iterable into a Clojure lazy sequence"
@@ -117,21 +118,27 @@
      :leader ldr
      :fields (vec (map parse-field-aleph content))}))
 
+(defn- load-from-source [source reader parser]
+  (let [recseq (-> source
+                   reader
+                   parser
+                   iterator->lazyseq)]
+    (pmap (comp serialize-record str) recseq)))
+
 (defmulti load-data (fn [format & _] format))
 
-(defmethod load-data :marc [_ filename]
-  (let [recseq (-> filename
-                   java.io.FileInputStream.
-                   org.marc4j.MarcStreamReader.
-                   iterator->lazyseq)]
-    (pmap (comp serialize-record str) recseq)))
+(defmethod load-data :marc [_ source]
+  (load-from-source
+    source
+    io/input-stream
+    #(org.marc4j.MarcStreamReader. %)))
 
-(defmethod load-data :marcxml [_ filename]
-  (let [recseq (-> filename
-                   java.io.FileInputStream.
-                   org.marc4j.MarcXmlReader.
-                   iterator->lazyseq)]
-    (pmap (comp serialize-record str) recseq)))
+(defmethod load-data :marcxml [_ source]
+  "Accepts a filename or a URL for reading remote data."
+  (load-from-source
+    source
+    io/input-stream
+    #(org.marc4j.MarcXmlReader. %)))
 
 (defmethod load-data :aleph [_ filename]
   (let [lst (line-seq (clojure.java.io/reader filename))
