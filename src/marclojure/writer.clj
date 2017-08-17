@@ -86,6 +86,9 @@
                (xml/element :leader {} (:leader record))
                (map field-to-xml (:fields record))))
 
+(defn to-xml-string [record]
+  (->> record to-marcxml xml/emit-str))
+
 (defmulti write-data (fn [format data filename] format))
 
 (defmethod write-data :marcxml [_ data filename]
