@@ -19,7 +19,7 @@
 marclojure is available from [Clojars](https://clojars.org/marclojure). Add it to your `project.clj` as follows:
 
 ```clojure
-[marclojure "0.2.6"]
+[marclojure "1.0.2"]
 ```
 
 Then you can require it into your namespace:
@@ -144,7 +144,7 @@ for processing record sequences. Some examples (here the core namespace is loade
 ```
 
 ```clojure
-(marc/to-string record))
+(marc/print-to-repl record))
 =>
 "000    00000cam^a22004097i^4500
  001    000000002
@@ -171,7 +171,7 @@ for processing record sequences. Some examples (here the core namespace is loade
 ```
 
 ```clojure
-(marc/get-subfields record "245" "a")
+(marc/get-subfields "245" "a" record)
 => ({:code "a", :data "La karaisme"})
 ```
 
@@ -186,17 +186,17 @@ for processing record sequences. Some examples (here the core namespace is loade
 ```
 
 ```clojure
-(marc/record-contains-phrase? record ["lausanne" "hard rock"])
+(marc/record-contains-phrase? ["lausanne" "hard rock"] record)
 => true
 ```
 
 ```clojure
-(marc/contains-field? record "130")
+(marc/contains-field? "130" record)
 => false
 ```
 
 ```clojure
-(marc/field-contains-phrase? record "100" "Simon")
+(marc/field-contains-phrase? "100" ["Simon"] record)
 => true
 
 ```
