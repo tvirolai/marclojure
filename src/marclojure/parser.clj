@@ -16,7 +16,6 @@
 (defn- datafield? [tagstring]
   (let [tag-number (try (Integer. tagstring)
                         (catch Exception e
-                          (println (str "Non-numeral field: " tagstring))
                           999))]
     (if (> tag-number 9) true false)))
 
