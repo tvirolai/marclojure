@@ -3,10 +3,13 @@
             [marclojure.parser :as parser]
             [marclojure.writer :as writer]))
 
-(def test "test")
+;; A testbed namespace
 
 (def file
   "/home/tvirolai/Melinda-dumppi/dumppi.seq")
 
 (defn calculate []
   (->> file (parser/load-data :aleph) count))
+
+(def tietue
+  (->> file (parser/load-data :aleph) second))
