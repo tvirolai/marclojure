@@ -84,6 +84,7 @@
   [line]
   (let [sfs (-> line get-content-aleph (s/split #"\$\$") rest)]
     (->> sfs
+         (filter not-empty)
          (map (fn [sf]
                 (hash-map :code (subs sf 0 1)
                           :data (if (> (count sf) 1) (subs sf 1) ""))))

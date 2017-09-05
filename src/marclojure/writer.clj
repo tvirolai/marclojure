@@ -2,9 +2,7 @@
   (:require [clojure.string :as s]
             [clojure.data.xml :as xml]
             [marclojure.parser :refer [load-data]]
-            [marclojure.core :as core]
-            [clojure.spec.alpha :as spec]
-            [marclojure.domain :as d]))
+            [marclojure.core :as core]))
 
 (defn- field-length
   "Get field length of the binary representation."
