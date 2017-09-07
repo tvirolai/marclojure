@@ -1,0 +1,267 @@
+000000406 FMT   L BK
+000000406 LDR   L 00000cam^a22002537i^4500
+000000406 001   L 000000406
+000000406 005   L 20160928131610.0
+000000406 008   L 850916s1985^^^^sw^|||||||||||||||||swe||
+000000406 035   L $$a(FI-MELINDA)000000406
+000000406 0410  L $$aswe
+000000406 080   L $$a839.7$$x-1
+000000406 1001  L $$aCora, Louise,$$c[=pseud.].
+000000406 24510 L $$aÄlska mig något :$$bdikter /$$cav Louise Cora ; ill. av Annika Wide.
+000000406 260   L $$a[Höganäs] :$$bBra lyrik,$$c1985.
+000000406 300   L $$a83 s. :$$bfärgill.
+000000406 336   L $$ateksti$$btxt$$2rdacontent
+000000406 337   L $$akäytettävissä ilman laitetta$$bn$$2rdamedia
+000000406 338   L $$anide$$bnc$$2rdacarrier
+000000406 SID   L $$c451$$balma
+000000406 CAT   L $$aCONV-ISBD$$b$$c20120401$$lFIN01$$h2007
+000000406 CAT   L $$aLOAD-FIX$$b30$$c20141219$$lFIN01$$h1238
+000000406 CAT   L $$aLOAD-FIX$$b30$$c20141219$$lFIN01$$h1238
+000000406 CAT   L $$aCONV-RDA$$b$$c20160319$$lFIN01$$h0811
+000000406 LOW   L $$aALMA
+000000406 LOW   L $$aVAARI
+000000407 FMT   L BK
+000000407 LDR   L ^^^^^cam^a22002417i^4500
+000000407 001   L 000000407
+000000407 005   L 20141219123826.0
+000000407 008   L 850916s1985^^^^sw^|||||||||||||||||swe||
+000000407 035   L $$a(FI-MELINDA)000000407
+000000407 0410  L $$aswe
+000000407 080   L $$a839.7$$x-1
+000000407 1000  L $$aLundkvist, Lars.
+000000407 24510 L $$aKorn :$$bdikter /$$cav Lars Lundkvist ; med efterskrift av Staffan Söderblom.
+000000407 260   L $$a[Höganäs] :$$bBra lyrik,$$c1985.
+000000407 300   L $$a192 s.
+000000407 336   L $$ateksti$$btxt$$2rdacontent
+000000407 337   L $$akäytettävissä ilman laitetta$$bn$$2rdamedia
+000000407 338   L $$anide$$bnc$$2rdacarrier
+000000407 SID   L $$c452$$balma
+000000407 CAT   L $$aCONV-ISBD$$b$$c20120401$$lFIN01$$h2007
+000000407 CAT   L $$aLOAD-FIX$$b30$$c20141219$$lFIN01$$h1238
+000000407 CAT   L $$aCONV-RDA$$b$$c20160319$$lFIN01$$h0811
+000000407 LOW   L $$aALMA
+000000408 FMT   L BK
+000000408 LDR   L ^^^^^cam^a22002297i^4500
+000000408 001   L 000000408
+000000408 005   L 20010520181046.0
+000000408 008   L 850916s1985^^^^sw^|||||||||||||||||swe||
+000000408 0411  L $$aswe$$heng
+000000408 080   L $$a820$$x(73)$$x-31$$x=03.20$$x=397
+000000408 1000  L $$aMailer, Norman.
+000000408 24010 L $$aTough guys don't dance
+000000408 24510 L $$aHårda killar dansar inte /$$cNorman Mailer ; till svenska av Caj Lundgren.
+000000408 260   L $$aHöganäs :$$bBra böcker,$$c1985.
+000000408 300   L $$a272 s
+000000408 336   L $$ateksti$$btxt$$2rdacontent
+000000408 337   L $$akäytettävissä ilman laitetta$$bn$$2rdamedia
+000000408 338   L $$anide$$bnc$$2rdacarrier
+000000408 SID   L $$c453$$balma
+000000408 CAT   L $$aCONV-ISBD$$b$$c20120401$$lFIN01$$h2007
+000000408 CAT   L $$aCONV-RDA$$b$$c20160319$$lFIN01$$h0811
+000000408 LOW   L $$aALMA
+000000409 FMT   L BK
+000000409 LDR   L ^^^^^cam^a22004094i^4500
+000000409 001   L 000000409
+000000409 005   L 20150731155629.0
+000000409 008   L 850916s1985^^^^sw^||||||b^^^|||||||swe||
+000000409 0410  L $$aswe
+000000409 080   L $$a016
+000000409 080   L $$a745
+000000409 080   L $$a371.381
+000000409 080   L $$a745/749
+000000409 080   L $$a371.381:016
+000000409 080   L $$a745/749:016
+000000409 080   L $$a689:016
+000000409 080   L $$a689
+000000409 1000  L $$aNielsen, Ursula.
+000000409 24510 L $$aSlöjdlitteratur /$$csammanst. av Ursula Nielsen.
+000000409 260   L $$aLinköping :$$bUniversitetsbiblioteket,$$c1985.
+000000409 300   L $$a48, X s. :$$bill.
+000000409 336   L $$ateksti$$btxt$$2rdacontent
+000000409 337   L $$akäytettävissä ilman laitetta$$bn$$2rdamedia
+000000409 338   L $$anide$$bnc$$2rdacarrier
+000000409 4901  L $$aPublikation / Linköpings universitetsbibliotek,$$x0346-6043 ;$$vnr 43
+000000409 4901  L $$aPublikation / Linköpings universitetsbibliotek ;$$v43
+000000409 650 7 L $$abibliografiat$$xkäsityöala$$2ysa
+000000409 650 7 L $$akäsityöt$$2ysa
+000000409 8102  L $$aLinköpings universitetsbibliotek.$$tPublikation ;$$vnr 43.
+000000409 SID   L $$c455$$balma
+000000409 SID   L $$c1127982$$bhelka
+000000409 CAT   L $$aCONV-ISBD$$b$$c20120401$$lFIN01$$h2007
+000000409 CAT   L $$aLOAD-HELKA$$b$$c20131129$$lFIN01$$h0002
+000000409 CAT   L $$aLOAD-OULA$$b$$c20150731$$lFIN01$$h1556
+000000409 CAT   L $$aCONV-RDA$$b$$c20160319$$lFIN01$$h0811
+000000409 LOW   L $$aALMA
+000000409 LOW   L $$aHELKA
+000000410 FMT   L BK
+000000410 LDR   L ^^^^^cam^a22002537i^4500
+000000410 001   L 000000410
+000000410 005   L 20141219123827.0
+000000410 008   L 850916s1985^^^^sw^|||||||||||||||||swe||
+000000410 035   L $$a(FI-MELINDA)000000410
+000000410 0411  L $$aswe$$hmul
+000000410 080   L $$a820/89$$x-1$$x(082.2)
+000000410 24500 L $$aVilt sjungande bland bergen :$$bdikter över alla gränser /$$c[övers.: Britt G. Hallqvist].
+000000410 260   L $$a[Höganäs] :$$bBra lyrik,$$c1985.
+000000410 300   L $$a129 s. :$$bill.
+000000410 336   L $$ateksti$$btxt$$2rdacontent
+000000410 337   L $$akäytettävissä ilman laitetta$$bn$$2rdamedia
+000000410 338   L $$anide$$bnc$$2rdacarrier
+000000410 7001  L $$aHallqvist, Britt G.
+000000410 SID   L $$c456$$balma
+000000410 CAT   L $$aCONV-ISBD$$b$$c20120401$$lFIN01$$h2007
+000000410 CAT   L $$aLOAD-FIX$$b30$$c20141219$$lFIN01$$h1238
+000000410 CAT   L $$aLOAD-FIX$$b30$$c20141219$$lFIN01$$h1238
+000000410 CAT   L $$aCONV-RDA$$b$$c20160319$$lFIN01$$h0811
+000000410 LOW   L $$aALMA
+000000411 FMT   L BK
+000000411 LDR   L ^^^^^cam^a22002657i^4500
+000000411 001   L 000000411
+000000411 005   L 20141219123828.0
+000000411 008   L 851105s1985^^^^sw^|||||||||||||||||swe||
+000000411 035   L $$a(FI-MELINDA)000000411
+000000411 0410  L $$aswe
+000000411 080   L $$a839.7$$x-1
+000000411 1000  L $$aÖsterling, Anders.
+000000411 24510 L $$aGrinden åt havet :$$bett urval dikter 1904-1978 /$$cAnders Österling ; sammanst. av Karin Österling.
+000000411 260   L $$aHöganäs :$$bBra Lyrik,$$c1985.
+000000411 300   L $$a203 s. :$$bill.
+000000411 336   L $$ateksti$$btxt$$2rdacontent
+000000411 337   L $$akäytettävissä ilman laitetta$$bn$$2rdamedia
+000000411 338   L $$anide$$bnc$$2rdacarrier
+000000411 7001  L $$aÖsterling, Karin.
+000000411 SID   L $$c457$$balma
+000000411 CAT   L $$aCONV-ISBD$$b$$c20120401$$lFIN01$$h2007
+000000411 CAT   L $$aLOAD-FIX$$b30$$c20141219$$lFIN01$$h1238
+000000411 CAT   L $$aLOAD-FIX$$b30$$c20141219$$lFIN01$$h1238
+000000411 CAT   L $$aCONV-RDA$$b$$c20160319$$lFIN01$$h0811
+000000411 LOW   L $$aALMA
+000000412 FMT   L BK
+000000412 LDR   L ^^^^^cam^a22002417i^4500
+000000412 001   L 000000412
+000000412 005   L 20150325231338.0
+000000412 008   L 851105s1985^^^^sw^|||||||||||||||||swe||
+000000412 0410  L $$aswe
+000000412 080   L $$a378.16$$x(485)
+000000412 24500 L $$aLokal-, inrednings- och utrustningsplanering för högskolan :$$butvärdering och förslag från LPSH 84.
+000000412 260   L $$aStockholm :$$bUHÄ,$$c1985.
+000000412 300   L $$a[134] s.
+000000412 336   L $$ateksti$$btxt$$2rdacontent
+000000412 337   L $$akäytettävissä ilman laitetta$$bn$$2rdamedia
+000000412 338   L $$anide$$bnc$$2rdacarrier
+000000412 4901  L $$aUHÄ-rapport,$$x0347-1330 ;$$v1985:8
+000000412 830 0 L $$aUHÄ-rapport,$$x0347-1330 ;$$v1985:8.
+000000412 SID   L $$c459$$balma
+000000412 CAT   L $$aCONV-ISBD$$b$$c20120401$$lFIN01$$h2007
+000000412 CAT   L $$aREM-HELKA$$b$$c20150325$$lFIN01$$h2313
+000000412 CAT   L $$aCONV-RDA$$b$$c20160319$$lFIN01$$h0811
+000000412 LOW   L $$aALMA
+000000413 FMT   L BK
+000000413 LDR   L ^^^^^cam^a22003737i^4500
+000000413 001   L 000000413
+000000413 005   L 20100225095516.0
+000000413 008   L 851105s1985^^^^sw^|||||||||||||||||swe||
+000000413 0410  L $$aswe
+000000413 080   L $$a002
+000000413 080   L $$a025.4.03:002
+000000413 080   L $$a025.4.03
+000000413 080   L $$a659.3
+000000413 080   L $$a001.89
+000000413 080   L $$a027.7:002
+000000413 080   L $$a027.7
+000000413 1000  L $$aFjällbrant, Nancy.
+000000413 24510 L $$aVetenskaplig kommunikation /$$cNancy Fjällbrant.
+000000413 250   L $$a4., rev. uppl.
+000000413 260   L $$aGöteborg :$$bChalmers tekniska högskola. Biblioteket,$$c1985.
+000000413 300   L $$a28 s. :$$bill., diagr.
+000000413 336   L $$ateksti$$btxt$$2rdacontent
+000000413 337   L $$akäytettävissä ilman laitetta$$bn$$2rdamedia
+000000413 338   L $$anide$$bnc$$2rdacarrier
+000000413 4901  L $$aCTHB-publikation,$$x0346-6914 ;$$vnr 1(1985)
+000000413 8102  L $$aChalmers tekniska högskolas bibliotek.$$tCTHB publikation ;$$vnr 1(1985).
+000000413 SID   L $$c460$$balma
+000000413 SID   L $$c13761$$boula
+000000413 SID   L $$c34914$$btutca
+000000413 CAT   L $$aL4005$$b30$$c20100225$$lFIN01$$h0955
+000000413 CAT   L $$aCONV-ISBD$$b$$c20120401$$lFIN01$$h2007
+000000413 CAT   L $$aCONV-RDA$$b$$c20160319$$lFIN01$$h0811
+000000413 LOW   L $$aALMA
+000000413 LOW   L $$aOULA
+000000414 FMT   L BK
+000000414 LDR   L ^^^^^cam^a22003857i^4500
+000000414 001   L 000000414
+000000414 005   L 20160225085329.0
+000000414 008   L 851105s1985^^^^xxu|||||||||||||||||eng||
+000000414 0410  L $$aeng
+000000414 080   L $$a801.5
+000000414 080   L $$a800.8$$x-5
+000000414 080   L $$a800.83
+000000414 1001  L $$aKrulee, Gilbert K.
+000000414 24510 L $$aTwo-level representations for natural language /$$cby Gilbert K. Krulee.
+000000414 260   L $$aBloomington :$$bIndiana University Linguistics Club,$$c1985.
+000000414 300   L $$a69 s
+000000414 336   L $$ateksti$$btxt$$2rdacontent
+000000414 337   L $$akäytettävissä ilman laitetta$$bn$$2rdamedia
+000000414 338   L $$anide$$bnc$$2rdacarrier
+000000414 61024 L $$aIndiana University Linguistics Club.
+000000414 7102  L $$aIndiana University Linguistics Club.
+000000414 SID   L $$c461$$balma
+000000414 SID   L $$c10457$$bhelka
+000000414 SID   L $$c46072$$bjosku
+000000414 SID   L $$c332244$$bvolte
+000000414 CAT   L $$c20090529$$lFIN01$$h1645
+000000414 CAT   L $$aCONV-ISBD$$b$$c20120401$$lFIN01$$h2007
+000000414 CAT   L $$aLOAD-HELKA$$b$$c20140527$$lFIN01$$h0229
+000000414 CAT   L $$aCONV-RDA$$b$$c20160319$$lFIN01$$h0811
+000000414 LOW   L $$aALMA
+000000414 LOW   L $$aHELKA
+000000414 LOW   L $$aJOSKU
+000000414 LOW   L $$aVOLTE
+000000414 LOW   L $$aVAARI
+000000415 FMT   L BK
+000000415 LDR   L ^^^^^cam^a22003857i^4500
+000000415 001   L 000000415
+000000415 005   L 20160225093257.0
+000000415 008   L 851105s1985^^^^xxu|||||||||||||||||eng||
+000000415 0410  L $$aeng
+000000415 080   L $$a801.5
+000000415 080   L $$a802.0$$x-56.
+000000415 080   L $$a801.56
+000000415 1001  L $$aHuck, Geoffrey J.
+000000415 24510 L $$aDiscontinuity and word order in categorial grammar /$$cby Geoffrey J. Huck.
+000000415 260   L $$aBloomington :$$bIndiana University Linguistics Club,$$c1985.
+000000415 300   L $$a57 s
+000000415 336   L $$ateksti$$btxt$$2rdacontent
+000000415 337   L $$akäytettävissä ilman laitetta$$bn$$2rdamedia
+000000415 338   L $$anide$$bnc$$2rdacarrier
+000000415 61024 L $$aIndiana University Linguistics Club.
+000000415 7102  L $$aIndiana University Linguistics Club.
+000000415 SID   L $$c462$$balma
+000000415 SID   L $$c9674$$bhelka
+000000415 SID   L $$c46084$$bjosku
+000000415 SID   L $$c331043$$bvolte
+000000415 CAT   L $$c20090529$$lFIN01$$h1645
+000000415 CAT   L $$aCONV-ISBD$$b$$c20120401$$lFIN01$$h2007
+000000415 CAT   L $$aLOAD-HELKA$$b$$c20140513$$lFIN01$$h2336
+000000415 CAT   L $$aX4015$$b30$$c20160225$$lFIN01$$h0932
+000000415 CAT   L $$aCONV-RDA$$b$$c20160319$$lFIN01$$h0811
+000000415 LOW   L $$aALMA
+000000415 LOW   L $$aHELKA
+000000415 LOW   L $$aJOSKU
+000000415 LOW   L $$aVOLTE
+000000415 LOW   L $$aVAARI
+000000416 FMT   L BK
+000000416 LDR   L ^^^^^cam^a22002777i^4500
+000000416 001   L 000000416
+000000416 005   L 20010520181046.0
+000000416 008   L 851105s1985^^^^xxu|||||||||||||||||eng||
+000000416 0410  L $$aeng
+000000416 080   L $$a801.56
+000000416 080   L $$a801.25
+000000416 1000  L $$aKac, Michael B.
+000000416 24510 L $$aConstraints on predicate coordination /$$cby Michael B. Kac.
+000000416 260   L $$aBloomington :$$bIndiana University Linguistics Club,$$c1985.
+000000416 300   L $$a28 s
+000000416 336   L $$ateksti$$btxt$$2rdacontent
+000000416 337   L $$akäytettävissä ilman laitetta$$bn$$2rdamedia
+000000416 338   L $$anide$$bnc$$2rdacarrier

@@ -12,7 +12,7 @@
   ([field code]
    (->> field :subfields (filter #(= code (:code %)))))
   ([tag code record]
-   (->> (get-fields tag record) (map #(get-subfields code %)) flatten)))
+   (->> (get-fields tag record) (map #(get-subfields % code)) flatten)))
 
 (defn datafield? [field]
   (= "datafield" (:type field)))
@@ -70,9 +70,19 @@
       (some true?
             (map #(.contains field (s/lower-case %)) phrases)))))
 
-(defn field-report [batch tag]
+(defn field-report [tag batch]
   (->> batch
-       (map #(get-fields % tag))
+       (map (partial get-fields tag))
        (filter not-empty)
        flatten
        (map field-to-string)))
+
+(defn is-aleph-field? [field]
+  (->> field :tag (re-seq #"[A-Z]") ((complement nil?))))
+
+(defn remove-aleph-fields
+  "Weeds all fields with alphabetical tags (LOW, STA, SID) from record."
+  [record]
+  {:leader (:leader record)
+   :bibid (:bibid record)
+   :fields (filterv (complement is-aleph-field?) (:fields record))})

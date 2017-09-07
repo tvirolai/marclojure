@@ -1,5 +1,6 @@
 (ns marclojure.core-test
   (:require [clojure.test :refer :all]
+            [clojure.string :as s]
             [marclojure.core :refer :all]
             [marclojure.parser :refer :all]
             [marclojure.writer :refer :all]))
@@ -16,15 +17,23 @@
 (def testrec-aleph
   (load-data :aleph "./testdata/testdata.seq"))
 
+(def testbatch
+  (load-data :aleph "./testdata/testbatch.seq"))
+
 (deftest accessors
   (testing "Membership in record"
     (is (true? (contains-field? "338" testrecord)))
-    (is (false? (contains-field? "339" testrecord)))))
+    (is (false? (contains-field? "339" testrecord))))
+  (testing "Should get a single subfield"
+    (is (map? (first (get-subfields "245" "a" testrecord))))
+    (is (map? (first (get-subfields (first (get-fields "245" testrecord)) "a"))))))
 
 (deftest fieldoperations
   (testing "Field checks"
     (is (true? (datafield? (first (get-fields "245" testrecord)))))
-    (is (false? (datafield? (first (get-fields "008" testrecord)))))))
+    (is (false? (datafield? (first (get-fields "008" testrecord))))))
+  (testing "Should be a string"
+    (is (string? (field-to-string (first (get-fields "245" testrecord)))))))
 
 (deftest phrases
   (testing "Record should contain phrase 'intervention'"
@@ -35,7 +44,7 @@
   (testing "Capitalization should not matter"
     (is (true? (record-contains-phrase? ["division of science"] testrecord)))
     (is (true? (record-contains-phrase? ["DIVISION OF SCIENCE"] testrecord))))
-  (testing "should return true if any of the input strings are found"
+  (testing "Should return true if any of the input strings are found"
     (is (true? (field-contains-phrase? "338" ["nide"] testrecord)))
     (is (true?
           (field-contains-phrase? "338"
@@ -54,3 +63,27 @@
     (is (true? (every? true? (map #(contains-field? "245" %) testrec-marc))))
     (is (true? (every? true? (map #(contains-field? "245" %) testrec-aleph))))
     (is (true? (every? true? (map #(contains-field? "245" %) testrec-xml))))))
+
+(deftest to-string-operations
+  (let [recstring (to-string testrecord)]
+    (testing "to-string function should transform the record to string representation"
+        (is (string? recstring))
+        (is (> (count recstring) 10)))
+    (testing "String representation should contain the phrase 'intervention'"
+      (s/includes? recstring "intervention"))))
+
+(deftest aleph-internals
+  (let [testfield (->> testbatch first (get-fields "LOW") first)]
+    (testing "Should recognize Aleph internal fields by tag"
+      (is-aleph-field? testfield))
+    (testing "Should remove Aleph internal fields from a record"
+      (is (false? (= (remove-aleph-fields testrecord) testrec-aleph))))))
+
+(deftest reports
+  (testing "Should return a sequence of strings from 'field-report'"
+    (let [result (field-report "245" testbatch)]
+      (is seq? result)
+      (< 1 (count result))
+      (every? string? result)
+      (every? #(s/includes? "245 " %) result)
+      (= result (remove empty? result)))))

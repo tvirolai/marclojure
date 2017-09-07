@@ -84,7 +84,7 @@
   [line]
   (let [sfs (-> line get-content-aleph (s/split #"\$\$") rest)]
     (->> sfs
-         (filter not-empty)
+         (filter not-empty) ; Get rid of empty subfields
          (map (fn [sf]
                 (hash-map :code (subs sf 0 1)
                           :data (if (> (count sf) 1) (subs sf 1) ""))))
@@ -108,15 +108,14 @@
                  (filter #(= "LDR" (get-tag-aleph %)))
                  first
                  get-content-aleph)
-        content (remove aleph-internal-field? data)
-        id (->> content
+        id (->> data
                 (filter #(= "001" (get-tag-aleph %)))
                 first
                 get-content-aleph
                 remove-leading-zeros)]
     {:bibid id
      :leader ldr
-     :fields (vec (map parse-field-aleph content))}))
+     :fields (vec (map parse-field-aleph data))}))
 
 (defn- load-from-source [source reader parser]
   (let [recseq (-> source
