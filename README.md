@@ -19,7 +19,7 @@
 marclojure is available from [Clojars](https://clojars.org/marclojure). Add it to your `project.clj` as follows:
 
 ```clojure
-[marclojure "1.0.2"]
+[marclojure "1.0.4"]
 ```
 
 Then you can require it into your namespace:
@@ -36,7 +36,7 @@ Then you can require it into your namespace:
 MARC batch files can be read into lazy sequences using the `load-data` multimethod from `marclojure.parser` namespace.
 Load-data accepts two arguments: file format (keyword, possible options are `:marc`, `:marcxml` or `:aleph`) and a filename.
 
-Note that system-specific fields (LOW, SID, FMT etc.) are not retained when parsing Aleph Sequential data.
+In older versions of marclojure, system-specific fields (LOW, SID, FMT etc.) were not retained when parsing Aleph Sequential data. From 1.0.4 they are retained and can be optionally weeded by calling marclojure.core/remove-aleph-fields on the record.
 
 An example:
 
