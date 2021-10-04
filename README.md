@@ -19,7 +19,7 @@
 marclojure is available from [Clojars](https://clojars.org/marclojure). Add it to your `project.clj` as follows:
 
 ```clojure
-[marclojure "1.0.6"]
+[marclojure "1.0.6-SNAPHOT"]
 ```
 
 Then you can require it into your namespace:
