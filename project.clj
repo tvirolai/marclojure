@@ -6,6 +6,7 @@
   :dependencies [[org.clojure/clojure "LATEST"]
                  [org.marc4j/marc4j "2.9.2"]
                  [org.clojure/data.xml "0.0.8"]]
+  :plugins [[lein-shell "0.5.0"]]
   :deploy-repositories [["clojars" {:url "https://clojars.org/repo"
                                     :creds :gpg
                                     :sign-releases false}]]
