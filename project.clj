@@ -1,4 +1,4 @@
-(defproject marclojure "1.0.6"
+(defproject marclojure "1.0.6-SNAPSHOT"
   :description "A library for parsing MARC records"
   :url "http://github.com/tvirolai/marclojure"
   :license {:name "Eclipse Public License"
