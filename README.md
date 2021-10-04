@@ -19,7 +19,7 @@
 marclojure is available from [Clojars](https://clojars.org/marclojure). Add it to your `project.clj` as follows:
 
 ```clojure
-[marclojure "1.0.4"]
+[marclojure "1.0.6"]
 ```
 
 Then you can require it into your namespace:
@@ -210,12 +210,6 @@ Writing records to file is done as follows:
 => nil
 ```
 
-## TODO
-
-* Writing ISO 2709 format
-* Remove `marc4j` Java library from dependencies, move to pure Clojure implementation
-* Add test coverage
-
 ## Thanks
 
 `marclojure` uses [marc4j](https://github.com/marc4j/marc4j) for reading MARC data. Thanks for that!
@@ -224,6 +218,6 @@ Aleph Sequential parser is based on [clj-marc](https://github.com/phochste/clj-m
 
 ## License
 
-Copyright © 2017 Tuomo Virolainen
+Copyright © 2017-2021 Tuomo Virolainen
 
 Distributed under the Eclipse Public License either version 1.0.
