@@ -7,4 +7,7 @@
                  [org.marc4j/marc4j "2.9.2"]
                  [org.clojure/data.xml "0.0.8"]]
   :plugins [[lein-cloverage "1.0.11-SNAPSHOT"]]
+  :deploy-repositories [["clojars" {:url "https://clojars.org/repo"
+                                    :creds :gpg
+                                    :sign-releases false}]]
   :profiles {:dev {:source-paths ["dev"]}})
